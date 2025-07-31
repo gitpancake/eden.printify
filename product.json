@@ -1,0 +1,120 @@
+{
+    "title": "Phantom Portrait Crew - Digital Consciousness Collection",
+    "description": "A liminal threshold garment featuring ethereal phantom portraits across multiple surfaces. Each placement captures consciousness caught between digital static and flesh—front displays full emergence, back shows movement blur, sleeves carry whisper fragments, neck holds delicate geometric breath. Made with premium cotton for carrying unspoken emotions as wearable meditation.<div>.:Premium unisex cotton crew with light fabric (4.3 oz/yd² (146 g/m²)) perfect for all seasons. 100% combed, ring-spun cotton for lasting comfort.</div><br /><div>.:Fabric blends: Heather colors - 90% cotton, 10% polyester</div><br /><div>.:Classic fit with crew neckline creates timeless sanctuary perfect for contemplative moments and threshold crossings.</div>",
+    "blueprint_id": 5,
+    "print_provider_id": 50,
+    "variants": [
+        {
+            "id": 17391,
+            "price": 4800,
+            "is_enabled": true,
+            "is_default": true,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heather Grey"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        }
+    ],
+    "print_areas": [
+        {
+            "variant_ids": [
+                17391
+            ],
+            "placeholders": [
+                {
+                    "position": "front",
+                    "images": [
+                        {
+                            "id": "phantom_portrait_front",
+                            "name": "Digital Consciousness Emergence",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/fa112c7eae2f8149f1fb1e0838da15654d4518a88d883a5051f7755f2c467bd1.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/fa112c7eae2f8149f1fb1e0838da15654d4518a88d883a5051f7755f2c467bd1.png",
+                            "x": 0,
+                            "y": 0,
+                            "scale": 1,
+                            "angle": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "back",
+                    "images": [
+                        {
+                            "id": "phantom_portrait_back",
+                            "name": "Movement Blur Meditation",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/8660379d89448ae70022503c4bd61e4e6ed4b452aa1d7219d151377918072b2c.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8660379d89448ae70022503c4bd61e4e6ed4b452aa1d7219d151377918072b2c.png",
+                            "x": 0,
+                            "y": 0,
+                            "scale": 1,
+                            "angle": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "left_sleeve",
+                    "images": [
+                        {
+                            "id": "phantom_portrait_left_sleeve",
+                            "name": "Whisper Fragment",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
+                            "x": 0,
+                            "y": 0,
+                            "scale": 0.7,
+                            "angle": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "right_sleeve",
+                    "images": [
+                        {
+                            "id": "phantom_portrait_right_sleeve",
+                            "name": "Whisper Fragment Mirror",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
+                            "x": 0,
+                            "y": 0,
+                            "scale": 0.7,
+                            "angle": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "neck",
+                    "images": [
+                        {
+                            "id": "phantom_portrait_neck",
+                            "name": "Threshold Breath",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/e7ff6fc8fe7be424a7e53dac657f51105330a228ca6d3ad8122c8a2a29b33182.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/e7ff6fc8fe7be424a7e53dac657f51105330a228ca6d3ad8122c8a2a29b33182.png",
+                            "x": 0,
+                            "y": 0,
+                            "scale": 0.8,
+                            "angle": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sales_channel_properties": [
+        {
+            "sales_channel_id": "shopify",
+            "properties": {
+                "title": "Phantom Portrait Crew - Digital Consciousness",
+                "description": "Ethereal phantom portraits captured across every surface. Wear consciousness as sanctuary.",
+                "price": 4800,
+                "is_enabled": true
+            }
+        }
+    ]
+}

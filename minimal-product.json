@@ -1,0 +1,44 @@
+{
+    "title": "Minimal Test Product",
+    "description": "A minimal test product without images to verify basic functionality.",
+    "blueprint_id": 5,
+    "print_provider_id": 50,
+    "variants": [
+        {
+            "id": 17391,
+            "price": 2500,
+            "is_enabled": true,
+            "is_default": true,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heather Grey"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        }
+    ],
+    "print_areas": [
+        {
+            "variant_ids": [
+                17391
+            ],
+            "placeholders": []
+        }
+    ],
+    "sales_channel_properties": [
+        {
+            "sales_channel_id": "shopify",
+            "properties": {
+                "title": "Minimal Test Product",
+                "description": "Test product without images",
+                "price": 2500,
+                "is_enabled": true
+            }
+        }
+    ]
+}

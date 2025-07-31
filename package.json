@@ -1,0 +1,45 @@
+{
+  "name": "eden.printify",
+  "version": "1.0.0",
+  "description": "Printify API integration for creating products from JSON files",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec node dist/index.js",
+    "example": "node example.js",
+    "setup": "node setup.js",
+    "create-test-image": "node create-test-image.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitpancake/eden.printify.git"
+  },
+  "keywords": [
+    "printify",
+    "api",
+    "print-on-demand",
+    "products"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gitpancake/eden.printify/issues"
+  },
+  "homepage": "https://github.com/gitpancake/eden.printify#readme",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "canvas": "^2.11.2"
+  }
+}

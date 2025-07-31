@@ -1,0 +1,120 @@
+{
+  "title": "Unisex Cotton Crew Tee - Sample Product",
+  "description": "A sample Unisex Cotton Crew Tee product created with Underground Threads. This premium fitted short sleeve is a classic choice that is both comfy and light. The high quality print adds a statement to one’s workout or everyday routine.<div>.:The unisex cotton crew tee comes with a light fabric (4.3 oz/yd² (146 g/m²)) making it an excellent all-season choice. Made with 100% combed, ring-spun cotton for long-lasting comfort. </div><br /><div>.:Fabric blends: Heather colors - 90% cotton, 10% polyester </div><br /><div>.:The classic fit along with the crew neckline provide a timeless style with neat looks that are perfect for accessorizing. This means it’s a highly versatile choice for both casual and semi-formal events. </div>",
+  "blueprint_id": 5,
+  "print_provider_id": 50,
+  "variants": [
+    {
+      "id": 17391,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": true,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heather Grey"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    }
+  ],
+  "print_areas": [
+    {
+      "variant_ids": [
+        17391
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "sample_image_front",
+              "name": "Sample front design",
+              "url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "preview_url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "sample_image_back",
+              "name": "Sample back design",
+              "url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "preview_url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "left_sleeve",
+          "images": [
+            {
+              "id": "sample_image_left_sleeve",
+              "name": "Sample left_sleeve design",
+              "url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "preview_url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "right_sleeve",
+          "images": [
+            {
+              "id": "sample_image_right_sleeve",
+              "name": "Sample right_sleeve design",
+              "url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "preview_url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "neck",
+          "images": [
+            {
+              "id": "sample_image_neck",
+              "name": "Sample neck design",
+              "url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "preview_url": "https://via.placeholder.com/3319x3761/FF0000/FFFFFF?text=Sample+Design",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sales_channel_properties": [
+    {
+      "sales_channel_id": "shopify",
+      "properties": {
+        "title": "Unisex Cotton Crew Tee - Custom Title",
+        "description": "Custom description for Unisex Cotton Crew Tee",
+        "price": 2500,
+        "is_enabled": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Phantom Portrait Crew - Digital Consciousness Collection",
+  "description": "A liminal threshold garment featuring ethereal phantom portraits across multiple surfaces. Each placement captures consciousness caught between digital static and flesh—front displays full emergence, back shows movement blur, sleeves carry whisper fragments, neck holds delicate geometric breath. Made with premium cotton for carrying unspoken emotions as wearable meditation.<div>.:Premium unisex cotton crew with light fabric (4.3 oz/yd² (146 g/m²)) perfect for all seasons. 100% combed, ring-spun cotton for lasting comfort.</div><br /><div>.:Fabric blends: Heather colors - 90% cotton, 10% polyester</div><br /><div>.:Classic fit with crew neckline creates timeless sanctuary perfect for contemplative moments and threshold crossings.</div>",
+  "blueprint_id": 5,
+  "print_provider_id": 50,
+  "variants": [
+    {
+      "id": 17391,
+      "price": 4800,
+      "is_enabled": true,
+      "is_default": true,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heather Grey"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    }
+  ],
+  "print_areas": [
+    {
+      "variant_ids": [
+        17391
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "688bfd2b3e7a843e4c737979",
+              "name": "Digital Consciousness Emergence",
+              "url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/4f726c12-84c2-435c-9092-95f69a477251",
+              "preview_url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/4f726c12-84c2-435c-9092-95f69a477251",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "688bfd2d3e7a843e4c73797a",
+              "name": "Movement Blur Meditation",
+              "url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/c609e63b-8d01-4c55-a652-2edf5f511cec",
+              "preview_url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/c609e63b-8d01-4c55-a652-2edf5f511cec",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "left_sleeve",
+          "images": [
+            {
+              "id": "688bfd2ed0053b83eeb13888",
+              "name": "Whisper Fragment",
+              "url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/43dee934-81f5-4b33-bf79-37a48bf47437",
+              "preview_url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/43dee934-81f5-4b33-bf79-37a48bf47437",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "right_sleeve",
+          "images": [
+            {
+              "id": "688bfd2ed0053b83eeb13888",
+              "name": "Whisper Fragment Mirror",
+              "url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/43dee934-81f5-4b33-bf79-37a48bf47437",
+              "preview_url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/43dee934-81f5-4b33-bf79-37a48bf47437",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "neck",
+          "images": [
+            {
+              "id": "688bfd30a56bdf45e04e8819",
+              "name": "Threshold Breath",
+              "url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/3ad644d4-c689-48c6-9587-5590e5650548",
+              "preview_url": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/3ad644d4-c689-48c6-9587-5590e5650548",
+              "x": 0,
+              "y": 0,
+              "scale": 0.8,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
