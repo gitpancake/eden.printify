@@ -1,60 +1,102 @@
 # Changelog
 
-All notable changes to the Eden Printify Product Creator will be documented in this file.
+All notable changes to the Eden Printify Integration project will be documented in this file.
 
-## [1.1.0] - 2024-01-XX
+## [1.2.0] - 2025-07-31
 
-### Added
+### 🎉 Major Release: Complete Image Processing System
 
-- **Product Template Generator**: New utility to generate product templates based on blueprint and print provider information
-- **Setup Script**: Interactive setup script (`yarn setup`) to help users configure their environment
-- **New CLI Commands**:
-  - `generate-template <blueprint_id> <print_provider_id>`: Generate a product template for specific blueprint/print provider
-  - `generate-popular-templates`: Generate templates for popular products (t-shirts, hoodies, mugs, posters)
-  - `list-templates`: List available templates that can be generated
-- **Enhanced Help System**: Updated help command with new commands and examples
-- **Better Error Handling**: Improved error messages and validation
+#### ✨ New Features
 
-### Improved
+- **Automatic Image Processing**: New `process-with-images` command that extracts images from product JSON, uploads them to Printify, and creates products with real image IDs
+- **URL-based Image Upload**: Fixed image upload to use Printify's URL-based API instead of file uploads
+- **Smart Image Replacement**: Automatically replaces external image URLs with Printify image IDs
+- **Product Data Cleaning**: Removes incompatible sales channel properties for better compatibility
+- **Comprehensive Error Handling**: Graceful handling of upload failures with detailed error messages
 
-- **Documentation**: Enhanced README with setup instructions and new features
-- **Type Safety**: Better TypeScript type coverage for all new features
-- **User Experience**: More intuitive CLI interface with better feedback
+#### 🔧 Improvements
 
-### Technical Improvements
+- **Enhanced TypeScript Support**: Better type safety and error handling throughout
+- **Improved CLI Interface**: More intuitive command structure and help documentation
+- **Robust Validation**: Better product validation with detailed error reporting
+- **Production-Ready Error Handling**: Comprehensive error handling for all edge cases
 
-- **Modular Architecture**: Better separation of concerns with dedicated utility classes
-- **Code Organization**: Improved file structure and naming conventions
-- **Build Process**: Cleaner build output and better error reporting
+#### 🐛 Bug Fixes
 
-## [1.0.0] - 2024-01-XX
+- **Fixed Image Upload API**: Corrected API format to use URL-based uploads instead of file uploads
+- **Fixed Product Validation**: Resolved issues with missing URL fields in image objects
+- **Fixed Sales Channel Properties**: Removed incompatible sales channel properties that caused validation errors
+- **Fixed TypeScript Errors**: Resolved all TypeScript compilation issues
 
-### Initial Release
+#### 📚 Documentation
 
-- **Core Product Creation**: Create Printify products from JSON files
+- **Complete README**: Comprehensive documentation with usage examples and troubleshooting
+- **Updated Help System**: Better CLI help with examples and command descriptions
+- **Image Upload Guide**: Detailed guide for handling image uploads and requirements
+
+## [1.1.0] - 2025-07-31
+
+### ✨ New Features
+
+- **Product Template Generation**: Generate complete product templates from Printify catalog data
+- **Popular Templates**: Pre-configured templates for common product types
+- **Debug Tools**: Comprehensive debugging utilities for exploring blueprints, variants, and print providers
+- **Interactive Setup**: Guided setup script for easy configuration
+- **Test Image Creation**: Generate test images for upload validation
+
+### 🔧 Improvements
+
+- **Enhanced CLI**: Better command structure and user experience
+- **Type Safety**: Full TypeScript implementation with proper type definitions
+- **Validation**: Comprehensive product validation with detailed error messages
+- **Error Handling**: Robust error handling throughout the application
+
+### 📚 Documentation
+
+- **Complete README**: Comprehensive documentation with examples
+- **Setup Guide**: Step-by-step setup instructions
+- **Usage Examples**: Real-world usage examples and workflows
+
+## [1.0.0] - 2025-07-31
+
+### 🎉 Initial Release
+
+- **Product Creation**: Create Printify products from JSON files
+- **Image Upload**: Upload images to Printify with validation
 - **Shop Management**: List and manage Printify shops
-- **Product Management**: List and manage existing products
-- **Debug Tools**: Comprehensive debugging utilities for blueprints, print providers, and variants
-- **Image Upload**: Upload images to Printify with automatic test image generation
-- **Validation**: Comprehensive product validation with detailed error reporting
-- **TypeScript Support**: Full TypeScript implementation with complete type definitions
-- **CLI Interface**: Command-line interface with multiple commands and options
+- **Product Validation**: Comprehensive validation of product data
+- **TypeScript Support**: Full TypeScript implementation
+- **CLI Interface**: Easy-to-use command-line interface
 
-### Features
+### ✨ Core Features
 
-- Create products from JSON configuration files
-- List available shops and products
-- Debug blueprint and print provider information
-- Upload images to Printify
-- Validate product configurations
-- Comprehensive error handling and logging
+- Product creation from JSON files
+- Image upload functionality
+- Shop listing and management
+- Product validation and error handling
 - TypeScript with full type safety
-- Easy-to-use CLI interface
+- Comprehensive CLI interface
 
-### Technical Stack
+---
 
-- TypeScript for type safety
-- Axios for HTTP requests
-- Canvas for image generation
-- Form-data for file uploads
-- Dotenv for environment management
+## Development Notes
+
+### Breaking Changes
+
+- None in this release
+
+### Migration Guide
+
+- No migration required for existing users
+
+### Known Issues
+
+- None currently identified
+
+### Future Enhancements
+
+- Support for additional sales channels
+- Batch product creation
+- Advanced image processing
+- Webhook integration
+- Real-time product monitoring

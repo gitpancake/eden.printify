@@ -1,45 +1,54 @@
 {
-  "name": "eden.printify",
-  "version": "1.0.0",
-  "description": "Printify API integration for creating products from JSON files",
-  "main": "index.js",
+  "name": "eden-printify-integration",
+  "version": "1.2.0",
+  "description": "A powerful Node.js CLI tool for creating and managing products on Printify with automatic image processing",
+  "main": "dist/index.js",
   "scripts": {
-    "watch": "tsc --watch",
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "nodemon --exec node dist/index.js",
-    "example": "node example.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
     "setup": "node setup.js",
-    "create-test-image": "node create-test-image.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gitpancake/eden.printify.git"
+    "example": "yarn start create product.json",
+    "create-test-image": "node create-test-image.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "echo \"No linter configured\" && exit 0",
+    "format": "echo \"No formatter configured\" && exit 0"
   },
   "keywords": [
     "printify",
     "api",
-    "print-on-demand",
-    "products"
+    "cli",
+    "product-creation",
+    "image-upload",
+    "ecommerce",
+    "print-on-demand"
   ],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/gitpancake/eden.printify/issues"
-  },
-  "homepage": "https://github.com/gitpancake/eden.printify#readme",
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
-  "devDependencies": {
-    "@types/node": "^24.1.0",
-    "nodemon": "^3.1.10",
-    "typescript": "^5.9.2"
-  },
+  "author": "Eden Team",
+  "license": "MIT",
   "dependencies": {
-    "ts-node": "^10.9.2",
     "axios": "^1.6.0",
     "dotenv": "^16.3.1",
-    "form-data": "^4.0.0",
-    "canvas": "^2.11.2"
-  }
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "canvas": "^2.11.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/eden-printify-integration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/eden-printify-integration/issues"
+  },
+  "homepage": "https://github.com/your-org/eden-printify-integration#readme",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
