@@ -23,7 +23,7 @@ yarn start discover-products t-shirts 3000
 yarn start search-products premium cotton
 
 # Generate product template
-yarn start generate-dynamic-template 5 50
+yarn start generate-dynamic-template 15 3
 
 # Create product with images
 yarn start process-with-images product.json

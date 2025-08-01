@@ -81,6 +81,16 @@ async function main() {
         await handleDebugStructure(debugHelper, bpId, ppId);
         break;
 
+      case "debug-print-provider":
+        const providerId = parseInt(args[1]);
+        if (isNaN(providerId)) {
+          console.log("❌ Please provide a valid print provider ID");
+          console.log("Usage: yarn start debug-print-provider <provider_id>");
+          process.exit(1);
+        }
+        await handleDebugPrintProvider(debugHelper, providerId);
+        break;
+
       case "upload-image":
         const imagePath = args[1];
         if (!imagePath) {
@@ -236,6 +246,17 @@ async function handleDebugStructure(debugHelper: DebugHelper, blueprintId: numbe
     await debugHelper.showRecommendedProductStructure(blueprintId, printProviderId);
   } catch (error) {
     console.error(`❌ Failed to debug structure:`, error);
+    throw error;
+  }
+}
+
+async function handleDebugPrintProvider(debugHelper: DebugHelper, providerId: number) {
+  console.log(`🔍 Debugging print provider with ID: ${providerId}...\n`);
+
+  try {
+    await debugHelper.debugPrintProvider(providerId);
+  } catch (error) {
+    console.error(`❌ Failed to debug print provider:`, error);
     throw error;
   }
 }
@@ -576,6 +597,7 @@ function showHelp() {
   console.log("  debug-blueprints      List all available blueprints");
   console.log("  debug-blueprint <id>  Debug a specific blueprint and its variants");
   console.log("  debug-structure <bp> <pp>  Show recommended product structure for blueprint/print provider");
+  console.log("  debug-print-provider <id>  Debug a specific print provider and its variants");
   console.log("  upload-image <path>   Upload an image to Printify");
   console.log("  create-with-image [file-path]  Create product with uploaded image (default: ./product.json)");
   console.log("  generate-template <bp> <pp>  Generate product template for blueprint/print provider");
@@ -601,6 +623,7 @@ function showHelp() {
   console.log("  yarn start debug-blueprints         # List all blueprints");
   console.log("  yarn start debug-blueprint 1        # Debug blueprint ID 1");
   console.log("  yarn start debug-structure 1 1      # Show structure for blueprint 1, print provider 1");
+  console.log("  yarn start debug-print-provider 3   # Debug print provider ID 3");
   console.log("  yarn start upload-image ./image.png # Upload an image to Printify");
   console.log("  yarn start create-with-image        # Create product with uploaded image");
   console.log("  yarn start generate-template 5 50   # Generate template for blueprint 5, print provider 50");

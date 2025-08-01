@@ -143,7 +143,7 @@ export class DynamicTemplateHelper {
           is_enabled: true,
           is_default: variant.id === variants[0].id,
           grams: this.estimateWeight(this.categorizeBlueprint(blueprint)),
-          options: Array.isArray(variant.options) ? variant.options : [],
+          options: this.processVariantOptions(variant.options),
         })),
         print_areas: variants.map((variant) => ({
           variant_ids: [variant.id],
@@ -275,8 +275,23 @@ export class DynamicTemplateHelper {
       });
 
       const data = response.data;
-      return Array.isArray(data) ? data : [];
+
+      // Handle different response structures
+      let variants: any[] = [];
+      if (Array.isArray(data)) {
+        variants = data;
+      } else if (data && typeof data === "object" && data.variants) {
+        variants = Array.isArray(data.variants) ? data.variants : [];
+      } else if (data && typeof data === "object") {
+        // If data is an object but doesn't have variants, it might be the variants array itself
+        variants = Object.values(data)
+          .filter((item) => Array.isArray(item))
+          .flat();
+      }
+
+      return variants;
     } catch (error) {
+      console.error(`Error fetching variants for blueprint ${blueprintId}, provider ${printProviderId}:`, error);
       return [];
     }
   }
@@ -420,6 +435,24 @@ export class DynamicTemplateHelper {
   private sampleArray<T>(array: T[], size: number): T[] {
     const shuffled = [...array].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, size);
+  }
+
+  private processVariantOptions(options: any): any[] {
+    if (!options) return [];
+
+    if (Array.isArray(options)) {
+      return options;
+    }
+
+    if (typeof options === "object") {
+      // Convert object format { color: 'Red', size: 'L' } to array format [{ id: 1, value: 'Red' }, { id: 2, value: 'L' }]
+      return Object.entries(options).map(([, value], index) => ({
+        id: index + 1,
+        value: value?.toString() || "Default",
+      }));
+    }
+
+    return [];
   }
 
   private delay(ms: number): Promise<void> {

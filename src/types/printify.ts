@@ -72,7 +72,7 @@ export interface PrintifyBlueprint {
 export interface PrintifyPrintProvider {
   id: number;
   title: string;
-  location: string;
+  location: string | { [key: string]: any };
 }
 
 export interface CreateProductRequest {

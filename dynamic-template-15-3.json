@@ -1,0 +1,2818 @@
+{
+  "title": "Men's Very Important Tee - Marco Fine Arts",
+  "description": "The name does not lie - this VIT is designed to make one look like a VIP for any occasion. High quality print makes it a must-have item in every wardrobe.<div>.:100% soft cotton (fiber content varies for different colors)</div><br /><div>.:Light fabric (4.3 oz/yd² (146 g/m²))</div><br /><div>.:Semi-slim fit</div><br /><div>.:Tear away label</div><br /><div>.:Runs true to size</div>",
+  "blueprint_id": 15,
+  "print_provider_id": 3,
+  "variants": [
+    {
+      "id": 13629,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": true,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Classic Red"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13677,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Bright Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13678,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Bright Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13688,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Brown"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13689,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Brown"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13701,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13702,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13703,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13705,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13706,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13707,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Charcoal Heather"
+        },
+        {
+          "id": 2,
+          "value": "3XL"
+        }
+      ]
+    },
+    {
+      "id": 13709,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13710,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13711,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13712,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13713,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13714,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13715,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Kelly Green"
+        },
+        {
+          "id": 2,
+          "value": "3XL"
+        }
+      ]
+    },
+    {
+      "id": 13717,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Navy"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13718,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Navy"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13719,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Navy"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13720,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Navy"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13722,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Navy"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13735,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Red"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13737,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Red"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13739,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Heathered Red"
+        },
+        {
+          "id": 2,
+          "value": "3XL"
+        }
+      ]
+    },
+    {
+      "id": 13773,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13774,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13775,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13776,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13777,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13778,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13779,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Heather Gray"
+        },
+        {
+          "id": 2,
+          "value": "3XL"
+        }
+      ]
+    },
+    {
+      "id": 13781,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13782,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13785,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13786,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13787,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Light Turquoise"
+        },
+        {
+          "id": 2,
+          "value": "3XL"
+        }
+      ]
+    },
+    {
+      "id": 13805,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 13806,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13807,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13808,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13809,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13810,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "New Navy"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 13838,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "White"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 13839,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "White"
+        },
+        {
+          "id": 2,
+          "value": "S"
+        }
+      ]
+    },
+    {
+      "id": 13840,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "White"
+        },
+        {
+          "id": 2,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 13841,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "White"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    },
+    {
+      "id": 13842,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "White"
+        },
+        {
+          "id": 2,
+          "value": "2XL"
+        }
+      ]
+    },
+    {
+      "id": 23231,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Black"
+        },
+        {
+          "id": 2,
+          "value": "L"
+        }
+      ]
+    },
+    {
+      "id": 23232,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Black"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        }
+      ]
+    },
+    {
+      "id": 23235,
+      "price": 2500,
+      "is_enabled": true,
+      "is_default": false,
+      "grams": 180,
+      "options": [
+        {
+          "id": 1,
+          "value": "Black"
+        },
+        {
+          "id": 2,
+          "value": "XS"
+        }
+      ]
+    }
+  ],
+  "print_areas": [
+    {
+      "variant_ids": [
+        13629
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13677
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13678
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13688
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13689
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13701
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13702
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13703
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13705
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13706
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13707
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13709
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13710
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13711
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13712
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13713
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13714
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13715
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13717
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13718
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13719
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13720
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13722
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13735
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13737
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13739
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13773
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13774
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13775
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13776
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13777
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13778
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13779
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13781
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13782
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13785
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13786
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13787
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13805
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13806
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13807
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13808
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13809
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13810
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13838
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13839
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13840
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13841
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        13842
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        23231
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        23232
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant_ids": [
+        23235
+      ],
+      "placeholders": [
+        {
+          "position": "front",
+          "images": [
+            {
+              "id": "placeholder_front",
+              "name": "Men's Very Important Tee front design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        },
+        {
+          "position": "back",
+          "images": [
+            {
+              "id": "placeholder_back",
+              "name": "Men's Very Important Tee back design",
+              "url": "https://example.com/placeholder-image.png",
+              "preview_url": "https://example.com/placeholder-image.png",
+              "x": 0,
+              "y": 0,
+              "scale": 1,
+              "angle": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -86,6 +86,19 @@ export class PrintifyApiClient {
   }
 
   /**
+   * Get a specific print provider by ID
+   */
+  async getPrintProvider(providerId: number): Promise<PrintifyPrintProvider> {
+    try {
+      const response: AxiosResponse<PrintifyPrintProvider> = await this.client.get(`/catalog/print_providers/${providerId}.json`);
+      return response.data;
+    } catch (error) {
+      console.error(`Failed to fetch print provider ${providerId}:`, error);
+      throw error;
+    }
+  }
+
+  /**
    * Get variants for a specific blueprint and print provider
    */
   async getVariants(blueprintId: number, printProviderId: number): Promise<any[]> {

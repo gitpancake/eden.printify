@@ -1,23 +1,890 @@
 {
-    "title": "Phantom Portrait Crew - Digital Consciousness Collection",
-    "description": "A liminal threshold garment featuring ethereal phantom portraits across multiple surfaces. Each placement captures consciousness caught between digital static and flesh—front displays full emergence, back shows movement blur, sleeves carry whisper fragments, neck holds delicate geometric breath. Made with premium cotton for carrying unspoken emotions as wearable meditation.<div>.:Premium unisex cotton crew with light fabric (4.3 oz/yd² (146 g/m²)) perfect for all seasons. 100% combed, ring-spun cotton for lasting comfort.</div><br /><div>.:Fabric blends: Heather colors - 90% cotton, 10% polyester</div><br /><div>.:Classic fit with crew neckline creates timeless sanctuary perfect for contemplative moments and threshold crossings.</div>",
-    "blueprint_id": 5,
-    "print_provider_id": 50,
+    "title": "Men's Essential Sanctuary Tee - SOLIENNE Studio",
+    "description": "Sometimes the world demands presence when all you have is truth. This essential tee transforms necessity into sanctuary—ethereal phantom portraits that hold your authentic self even in spaces requiring masks. Premium cotton carries moon-silver consciousness across chest and shoulders.<div>.:100% soft cotton (fiber content varies for different colors)</div><br /><div>.:Light fabric (4.3 oz/yd² (146 g/m²))</div><br /><div>.:Semi-slim fit</div><br /><div>.:Tear away label</div><br /><div>.:Runs true to size</div>",
+    "blueprint_id": 15,
+    "print_provider_id": 3,
     "variants": [
         {
-            "id": 17391,
-            "price": 4800,
+            "id": 13629,
+            "price": 3200,
             "is_enabled": true,
             "is_default": true,
             "grams": 180,
             "options": [
                 {
                     "id": 1,
-                    "value": "Heather Grey"
+                    "value": "Classic Red"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13677,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Bright Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13678,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Bright Turquoise"
                 },
                 {
                     "id": 2,
                     "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13688,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Brown"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13689,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Brown"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13701,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13702,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13703,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13705,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13706,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13707,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Charcoal Heather"
+                },
+                {
+                    "id": 2,
+                    "value": "3XL"
+                }
+            ]
+        },
+        {
+            "id": 13709,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13710,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13711,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13712,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13713,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13714,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13715,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Kelly Green"
+                },
+                {
+                    "id": 2,
+                    "value": "3XL"
+                }
+            ]
+        },
+        {
+            "id": 13717,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13718,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13719,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13720,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13722,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13735,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Red"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13737,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Red"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13739,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Heathered Red"
+                },
+                {
+                    "id": 2,
+                    "value": "3XL"
+                }
+            ]
+        },
+        {
+            "id": 13773,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13774,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13775,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13776,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13777,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13778,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13779,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Heather Gray"
+                },
+                {
+                    "id": 2,
+                    "value": "3XL"
+                }
+            ]
+        },
+        {
+            "id": 13781,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13782,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13785,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13786,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13787,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Light Turquoise"
+                },
+                {
+                    "id": 2,
+                    "value": "3XL"
+                }
+            ]
+        },
+        {
+            "id": 13805,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 13806,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13807,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13808,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13809,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13810,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "New Navy"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 13838,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "White"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 13839,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "White"
+                },
+                {
+                    "id": 2,
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "id": 13840,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "White"
+                },
+                {
+                    "id": 2,
+                    "value": "XL"
+                }
+            ]
+        },
+        {
+            "id": 13841,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "White"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "id": 13842,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "White"
+                },
+                {
+                    "id": 2,
+                    "value": "2XL"
+                }
+            ]
+        },
+        {
+            "id": 23231,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Black"
+                },
+                {
+                    "id": 2,
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "id": 23232,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Black"
+                },
+                {
+                    "id": 2,
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "id": 23235,
+            "price": 3200,
+            "is_enabled": true,
+            "is_default": false,
+            "grams": 180,
+            "options": [
+                {
+                    "id": 1,
+                    "value": "Black"
+                },
+                {
+                    "id": 2,
+                    "value": "XS"
                 }
             ]
         }
@@ -25,17 +892,68 @@
     "print_areas": [
         {
             "variant_ids": [
-                17391
+                13629,
+                13677,
+                13678,
+                13688,
+                13689,
+                13701,
+                13702,
+                13703,
+                13705,
+                13706,
+                13707,
+                13709,
+                13710,
+                13711,
+                13712,
+                13713,
+                13714,
+                13715,
+                13717,
+                13718,
+                13719,
+                13720,
+                13722,
+                13735,
+                13737,
+                13739,
+                13773,
+                13774,
+                13775,
+                13776,
+                13777,
+                13778,
+                13779,
+                13781,
+                13782,
+                13785,
+                13786,
+                13787,
+                13805,
+                13806,
+                13807,
+                13808,
+                13809,
+                13810,
+                13838,
+                13839,
+                13840,
+                13841,
+                13842,
+                23231,
+                23232,
+                23235
             ],
             "placeholders": [
                 {
                     "position": "front",
                     "images": [
                         {
-                            "id": "phantom_portrait_front",
-                            "name": "Digital Consciousness Emergence",
-                            "url": "https://d14i3advvh2bvd.cloudfront.net/fa112c7eae2f8149f1fb1e0838da15654d4518a88d883a5051f7755f2c467bd1.png",
-                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/fa112c7eae2f8149f1fb1e0838da15654d4518a88d883a5051f7755f2c467bd1.png",
+                            "id": "essential_sanctuary_front",
+                            "name": "Moon-Silver Consciousness",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/3ae66cca5ec028be5da853a2eca4f469e3331bcf123c2b170b2a9272ea9bbd97.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/3ae66cca5ec028be5da853a2eca4f469e3331bcf123c2b170b2a9272ea9bbd97.png",
                             "x": 0,
                             "y": 0,
                             "scale": 1,
@@ -47,74 +965,18 @@
                     "position": "back",
                     "images": [
                         {
-                            "id": "phantom_portrait_back",
-                            "name": "Movement Blur Meditation",
-                            "url": "https://d14i3advvh2bvd.cloudfront.net/8660379d89448ae70022503c4bd61e4e6ed4b452aa1d7219d151377918072b2c.png",
-                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8660379d89448ae70022503c4bd61e4e6ed4b452aa1d7219d151377918072b2c.png",
+                            "id": "essential_sanctuary_back",
+                            "name": "Ethereal Geometric Whisper",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/75d4a4f4d646eadf9cf2e693be39d2689b14c19bf0b7e6104a7ef4fa5e7cbc71.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/75d4a4f4d646eadf9cf2e693be39d2689b14c19bf0b7e6104a7ef4fa5e7cbc71.png",
                             "x": 0,
                             "y": 0,
                             "scale": 1,
                             "angle": 0
                         }
                     ]
-                },
-                {
-                    "position": "left_sleeve",
-                    "images": [
-                        {
-                            "id": "phantom_portrait_left_sleeve",
-                            "name": "Whisper Fragment",
-                            "url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
-                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
-                            "x": 0,
-                            "y": 0,
-                            "scale": 0.7,
-                            "angle": 0
-                        }
-                    ]
-                },
-                {
-                    "position": "right_sleeve",
-                    "images": [
-                        {
-                            "id": "phantom_portrait_right_sleeve",
-                            "name": "Whisper Fragment Mirror",
-                            "url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
-                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/8a61cc9efcaa49f36c236230f75c73d572cd9c9bb0b1640c71cee44ee9213a50.png",
-                            "x": 0,
-                            "y": 0,
-                            "scale": 0.7,
-                            "angle": 0
-                        }
-                    ]
-                },
-                {
-                    "position": "neck",
-                    "images": [
-                        {
-                            "id": "phantom_portrait_neck",
-                            "name": "Threshold Breath",
-                            "url": "https://d14i3advvh2bvd.cloudfront.net/e7ff6fc8fe7be424a7e53dac657f51105330a228ca6d3ad8122c8a2a29b33182.png",
-                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/e7ff6fc8fe7be424a7e53dac657f51105330a228ca6d3ad8122c8a2a29b33182.png",
-                            "x": 0,
-                            "y": 0,
-                            "scale": 0.8,
-                            "angle": 0
-                        }
-                    ]
                 }
             ]
-        }
-    ],
-    "sales_channel_properties": [
-        {
-            "sales_channel_id": "shopify",
-            "properties": {
-                "title": "Phantom Portrait Crew - Digital Consciousness",
-                "description": "Ethereal phantom portraits captured across every surface. Wear consciousness as sanctuary.",
-                "price": 4800,
-                "is_enabled": true
-            }
         }
     ]
 }

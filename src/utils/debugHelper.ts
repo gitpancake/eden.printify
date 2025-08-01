@@ -51,6 +51,28 @@ export class DebugHelper {
   }
 
   /**
+   * Debug a specific print provider by ID
+   */
+  async debugPrintProvider(providerId: number): Promise<void> {
+    try {
+      console.log(`🔍 Fetching print provider with ID: ${providerId}...`);
+      const provider = await this.apiClient.getPrintProvider(providerId);
+
+      console.log(`✅ Print Provider Details:`);
+      console.log(`  ID: ${provider.id}`);
+      console.log(`  Title: ${provider.title}`);
+      console.log(`  Location: ${typeof provider.location === "object" ? JSON.stringify(provider.location) : provider.location}`);
+
+      // Note: Print provider API doesn't return variants directly
+      // To get variants, we need to know which blueprint this provider works with
+      console.log(`  Note: To see variants for this provider, use:`);
+      console.log(`    yarn start debug-structure <blueprint_id> ${provider.id}`);
+    } catch (error) {
+      console.error(`❌ Error fetching print provider ${providerId}:`, error);
+    }
+  }
+
+  /**
    * Debug variants for a specific blueprint and print provider
    */
   async debugVariants(blueprintId: number, printProviderId: number): Promise<void> {
