@@ -52,9 +52,3 @@ The system provides 3 simple steps for AI:
 ✅ **Smart**: AI can find best products automatically  
 ✅ **Simple**: Just 3 commands for full integration  
 ✅ **Reliable**: Handles errors gracefully
-
-## For Gene
-
-See [EDEN_INTEGRATION_GUIDE.md](EDEN_INTEGRATION_GUIDE.md) for detailed integration instructions.
-
-The system is designed to be plug-and-play for Eden's AI platform.
