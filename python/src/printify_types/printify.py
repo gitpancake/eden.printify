@@ -22,7 +22,7 @@ class PlaceholderImage(BaseModel):
     x: float = 0
     y: float = 0
     scale: float = 1
-    angle: float = 0
+    angle: int = 0
 
 
 class Placeholder(BaseModel):

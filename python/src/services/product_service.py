@@ -35,6 +35,9 @@ class ProductService:
             
         except Exception as e:
             print(f"Failed to create product from file {product_json_path}: {e}")
+            if hasattr(e, 'response') and e.response is not None:
+                print(f"Response status: {e.response.status_code}")
+                print(f"Response text: {e.response.text}")
             raise
     
     def list_shops(self) -> List[Dict[str, Any]]:

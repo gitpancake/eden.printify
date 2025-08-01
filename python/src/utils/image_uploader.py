@@ -28,18 +28,32 @@ class ImageUploader:
             if not os.path.exists(image_path):
                 raise FileNotFoundError(f"Image file not found: {image_path}")
             
-            # Prepare the upload data
+            # Read the image file and encode as base64
+            import base64
             with open(image_path, 'rb') as f:
-                files = {'file': (os.path.basename(image_path), f, 'image/png')}
-                
-                response = requests.post(
-                    f"{self.base_url}/uploads/images.json",
-                    headers=self.headers,
-                    files=files,
-                    timeout=60
-                )
+                image_data = f.read()
+                base64_data = base64.b64encode(image_data).decode('utf-8')
             
-            response.raise_for_status()
+            # Prepare the upload data
+            file_name = os.path.basename(image_path)
+            
+            upload_data = {
+                'file_name': file_name,
+                'contents': base64_data
+            }
+            
+            response = requests.post(
+                f"{self.base_url}/uploads/images.json",
+                headers=self.headers,
+                json=upload_data,
+                timeout=60
+            )
+            
+            if response.status_code != 200:
+                print(f"Image upload failed with status {response.status_code}")
+                print(f"Response: {response.text}")
+                response.raise_for_status()
+            
             upload_data = response.json()
             
             return {

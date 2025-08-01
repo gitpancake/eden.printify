@@ -1,0 +1,8 @@
+{
+  "template_source": "printify_api",
+  "template_title": "Custom Men's Very Important Tee",
+  "blueprint_id": 15,
+  "print_provider_id": 3,
+  "fetch_timestamp": 257038.51341625,
+  "instructions": "Copy template data to product.json, edit it, then run step2_upload_product.py"
+}
