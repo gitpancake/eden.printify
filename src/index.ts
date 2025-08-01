@@ -1,10 +1,13 @@
 import { PrintifyApiClient } from "./services/printifyApi";
 import { ProductService } from "./services/productService";
+import { AITemplateHelper } from "./utils/aiTemplateHelper";
 import { loadConfig, validateConfig } from "./utils/config";
 import { DebugHelper } from "./utils/debugHelper";
+import { DynamicTemplateHelper } from "./utils/dynamicTemplateHelper";
 import { ImageUploader } from "./utils/imageUploader";
 import { ProductImageProcessor } from "./utils/productImageProcessor";
 import { ProductTemplateGenerator } from "./utils/productTemplateGenerator";
+import { TemplateGenerator } from "./utils/templateGenerator";
 
 async function main() {
   try {
@@ -34,6 +37,9 @@ async function main() {
     const imageUploader = new ImageUploader(config.printifyApiToken);
     const templateGenerator = new ProductTemplateGenerator(apiClient);
     const imageProcessor = new ProductImageProcessor(config.printifyApiToken);
+    const templateGen = new TemplateGenerator();
+    const aiHelper = new AITemplateHelper();
+    const dynamicHelper = new DynamicTemplateHelper();
     console.log("✅ Services initialized successfully\n");
 
     switch (command) {
@@ -109,9 +115,42 @@ async function main() {
         await handleListTemplates(templateGenerator);
         break;
 
+      case "generate-all-templates":
+        await handleGenerateAllTemplates(templateGen);
+        break;
+
+      case "list-all-templates":
+        await handleListAllTemplates(templateGen);
+        break;
+
       case "process-with-images":
         const processImagePath = args[1] || config.defaultProductJsonPath;
         await handleProcessWithImages(imageProcessor, productService, processImagePath);
+        break;
+
+      case "generate-ai-summary":
+        await handleGenerateAISummary(aiHelper);
+        break;
+
+      case "show-ai-context":
+        await handleShowAIContext(aiHelper);
+        break;
+
+      // New dynamic template commands
+      case "discover-products":
+        await handleDiscoverProducts(dynamicHelper, args[1], args[2], args[3]);
+        break;
+
+      case "search-products":
+        await handleSearchProducts(dynamicHelper, args.slice(1));
+        break;
+
+      case "generate-dynamic-template":
+        await handleGenerateDynamicTemplate(dynamicHelper, args[1], args[2], args[3]);
+        break;
+
+      case "show-categories":
+        await handleShowCategories(dynamicHelper);
         break;
 
       default:
@@ -307,6 +346,52 @@ async function handleListTemplates(templateGenerator: ProductTemplateGenerator) 
   }
 }
 
+async function handleGenerateAllTemplates(templateGen: TemplateGenerator) {
+  try {
+    console.log("🚀 Starting comprehensive template generation...");
+
+    await templateGen.generateAllTemplates();
+
+    console.log("\n🎉 All templates generated successfully!");
+    console.log("📁 Templates saved to: templates/ directory");
+    console.log("📋 Summary available at: templates/templates-summary.json");
+  } catch (error) {
+    console.error("❌ Error generating all templates:", error.message);
+    process.exit(1);
+  }
+}
+
+async function handleListAllTemplates(templateGen: TemplateGenerator) {
+  try {
+    console.log("📋 Loading template information...");
+
+    const templateInfo = await templateGen.getTemplateInfo();
+
+    console.log("\n📊 Template Summary:");
+    console.log(`   Total blueprints: ${templateInfo.summary.total_blueprints}`);
+    console.log(`   Total templates: ${templateInfo.total_templates}`);
+    console.log(`   Generated at: ${templateInfo.summary.generated_at}`);
+
+    console.log("\n📁 Available Blueprints:");
+    templateInfo.summary.blueprints.forEach((bp: any) => {
+      console.log(`   ${bp.id}: ${bp.title} (${bp.brand})`);
+    });
+
+    console.log("\n📋 Template Structure:");
+    console.log(`   Directory: ${templateInfo.summary.template_structure.directory}`);
+    console.log(`   Format: ${templateInfo.summary.template_structure.format}`);
+
+    console.log("\n🤖 AI Usage Instructions:");
+    console.log(`   ${templateInfo.summary.usage_instructions.for_ai}`);
+    console.log(`   ${templateInfo.summary.usage_instructions.template_selection}`);
+    console.log(`   ${templateInfo.summary.usage_instructions.customization}`);
+  } catch (error) {
+    console.error("❌ Error loading template information:", error.message);
+    console.log("💡 Run 'yarn start generate-all-templates' first to generate templates");
+    process.exit(1);
+  }
+}
+
 async function handleProcessWithImages(imageProcessor: ProductImageProcessor, productService: ProductService, productJsonPath: string) {
   console.log(`🔄 Processing product with images: ${productJsonPath}\n`);
 
@@ -333,57 +418,224 @@ async function handleProcessWithImages(imageProcessor: ProductImageProcessor, pr
   }
 }
 
-function showHelp() {
-  console.log(`
-📖 Eden Printify Product Creator - Usage Guide
+async function handleGenerateAISummary(aiHelper: AITemplateHelper) {
+  try {
+    console.log("🤖 Generating AI-friendly template summary...");
 
-Commands:
-  create [file-path]     Create a product from JSON file (default: ./product.json)
-  list-shops            List all available shops
-  list-products         List all products in current shop
-  debug-blueprints      List all available blueprints
-  debug-blueprint <id>  Debug a specific blueprint and its variants
-  debug-structure <bp> <pp>  Show recommended product structure for blueprint/print provider
-  upload-image <path>   Upload an image to Printify
-  create-with-image [file-path]  Create product with uploaded image (default: ./product.json)
-        generate-template <bp> <pp>  Generate product template for blueprint/print provider
-      generate-popular-templates   Generate templates for popular products
-      list-templates       List available templates that can be generated
-      process-with-images [file-path]  Extract images from JSON, upload to Printify, and create product
-      help                  Show this help message
+    await aiHelper.saveAISummary();
 
-Examples:
-  yarn start create                    # Create product from ./product.json
-  yarn start create ./my-product.json  # Create product from specific file
-  yarn start list-shops               # List available shops
-  yarn start list-products            # List products in current shop
-  yarn start debug-blueprints         # List all blueprints
-  yarn start debug-blueprint 1        # Debug blueprint ID 1
-  yarn start debug-structure 1 1      # Show structure for blueprint 1, print provider 1
-  yarn start upload-image ./image.png # Upload an image to Printify
-  yarn start create-with-image        # Create product with uploaded image
-  yarn start generate-template 5 50   # Generate template for blueprint 5, print provider 50
-  yarn start generate-popular-templates # Generate templates for popular products
-  yarn start list-templates           # List available templates
-  yarn start process-with-images      # Process product.json with image uploads
+    console.log("✅ AI summary generated successfully!");
+    console.log("📁 Summary saved to: templates/ai-template-summary.md");
+  } catch (error) {
+    console.error("❌ Error generating AI summary:", error.message);
+    console.log("💡 Run 'yarn start generate-all-templates' first to generate templates");
+    process.exit(1);
+  }
+}
 
-Environment Variables:
-  PRINTIFY_API_TOKEN     Your Printify API token (required)
-  PRINTIFY_SHOP_ID       Your Printify shop ID (required)
-  DEFAULT_PRODUCT_JSON_PATH  Default path for product.json (optional, default: ./product.json)
+async function handleShowAIContext(aiHelper: AITemplateHelper) {
+  try {
+    console.log("🤖 Loading AI template context...");
 
-Product JSON Format:
-  {
-    "title": "Product Title",
-    "description": "Product Description",
-    "blueprint_id": 123,
-    "print_provider_id": 456,
-    "variants": [...],
-    "print_areas": [...]
+    const context = await aiHelper.getAITemplateContext();
+
+    console.log("\n📊 AI Template Context:");
+    console.log(`   Total Blueprints: ${context.total_blueprints}`);
+    console.log(`   Total Templates: ${context.total_templates}`);
+
+    console.log("\n📁 Available Categories:");
+    const categories = await aiHelper.getPopularCategories();
+    for (const category of categories.slice(0, 10)) {
+      // Show top 10
+      const templates = context.categories[category];
+      console.log(`   ${category}: ${templates.length} templates`);
+    }
+
+    console.log("\n🔍 Sample Templates by Category:");
+    for (const [category, templates] of Object.entries(context.categories)) {
+      if (templates.length > 0) {
+        const sample = templates[0];
+        console.log(`   ${category}: ${sample.blueprint_title} (${sample.print_provider_title})`);
+      }
+    }
+
+    console.log("\n💡 AI Usage Tips:");
+    console.log("   - Use 'findTemplatesByCategory()' to get templates by product type");
+    console.log("   - Use 'findTemplatesByKeywords()' to search by keywords");
+    console.log("   - Use 'getTemplateByIds()' to get specific template by IDs");
+    console.log("   - All templates include complete product configurations");
+  } catch (error) {
+    console.error("❌ Error loading AI context:", error.message);
+    console.log("💡 Run 'yarn start generate-all-templates' first to generate templates");
+    process.exit(1);
+  }
+}
+
+async function handleDiscoverProducts(dynamicHelper: DynamicTemplateHelper, category?: string, maxPrice?: string, location?: string) {
+  console.log("🔍 Discovering products...");
+
+  const maxPriceNum = maxPrice ? parseInt(maxPrice) : undefined;
+  const suggestions = await dynamicHelper.getProductSuggestions(category, maxPriceNum, location);
+
+  console.log(`\n📋 Found ${suggestions.length} product suggestions:`);
+  console.log("=".repeat(80));
+
+  suggestions.forEach((suggestion, index) => {
+    console.log(`${index + 1}. ${suggestion.blueprint_title}`);
+    console.log(`   Provider: ${suggestion.print_provider_title}`);
+    console.log(`   Category: ${suggestion.category}`);
+    console.log(`   Price: $${(suggestion.estimated_price / 100).toFixed(2)}`);
+    console.log(`   Popularity: ${suggestion.popularity_score}/100`);
+    console.log(`   IDs: Blueprint ${suggestion.blueprint_id}, Provider ${suggestion.print_provider_id}`);
+    console.log(`   Description: ${suggestion.description.substring(0, 100)}...`);
+    console.log("");
+  });
+
+  console.log("💡 Use 'generate-dynamic-template <blueprint_id> <provider_id> [customizations]' to create a template");
+}
+
+async function handleSearchProducts(dynamicHelper: DynamicTemplateHelper, keywords: string[]) {
+  if (keywords.length === 0) {
+    console.log("❌ Please provide search keywords");
+    return;
   }
 
-For more information about the Printify API, visit: https://developers.printify.com/
-  `);
+  console.log(`🔍 Searching for products with keywords: ${keywords.join(", ")}`);
+
+  const suggestions = await dynamicHelper.searchProducts(keywords);
+
+  console.log(`\n📋 Found ${suggestions.length} matching products:`);
+  console.log("=".repeat(80));
+
+  suggestions.forEach((suggestion, index) => {
+    console.log(`${index + 1}. ${suggestion.blueprint_title}`);
+    console.log(`   Provider: ${suggestion.print_provider_title}`);
+    console.log(`   Category: ${suggestion.category}`);
+    console.log(`   Price: $${(suggestion.estimated_price / 100).toFixed(2)}`);
+    console.log(`   IDs: Blueprint ${suggestion.blueprint_id}, Provider ${suggestion.print_provider_id}`);
+    console.log("");
+  });
+}
+
+async function handleGenerateDynamicTemplate(dynamicHelper: DynamicTemplateHelper, blueprintId: string, providerId: string, customizations?: string) {
+  if (!blueprintId || !providerId) {
+    console.log("❌ Please provide blueprint_id and provider_id");
+    return;
+  }
+
+  console.log("🔧 Generating dynamic template...");
+
+  let customizationsObj = {};
+  if (customizations) {
+    try {
+      customizationsObj = JSON.parse(customizations);
+    } catch (error) {
+      console.log("⚠️  Invalid customizations JSON, using defaults");
+    }
+  }
+
+  const template = await dynamicHelper.generateProductTemplate(parseInt(blueprintId), parseInt(providerId), customizationsObj);
+
+  // Save template to file
+  const filename = `dynamic-template-${blueprintId}-${providerId}.json`;
+  const fs = require("fs");
+  fs.writeFileSync(filename, JSON.stringify(template, null, 2));
+
+  console.log(`✅ Template generated and saved to: ${filename}`);
+  console.log(`📋 Template includes:`);
+  console.log(`   - Title: ${template.title}`);
+  console.log(`   - Blueprint ID: ${template.blueprint_id}`);
+  console.log(`   - Provider ID: ${template.print_provider_id}`);
+  console.log(`   - Variants: ${template.variants.length}`);
+  console.log(`   - Print Areas: ${template.print_areas.length}`);
+}
+
+async function handleShowCategories(dynamicHelper: DynamicTemplateHelper) {
+  console.log("📂 Discovering available categories...");
+
+  const categories = await dynamicHelper.getAvailableCategories();
+
+  console.log("\n📋 Available Product Categories:");
+  console.log("=".repeat(50));
+
+  const sortedCategories = Object.entries(categories).sort(([, a], [, b]) => b - a);
+
+  sortedCategories.forEach(([category, count]) => {
+    console.log(`${category}: ${count} products`);
+  });
+
+  console.log(`\n💡 Use 'discover-products <category>' to explore products in a category`);
+}
+
+function showHelp() {
+  console.log("📖 Eden Printify Product Creator - Usage Guide");
+  console.log("\nCommands:");
+  console.log("  create [file-path]     Create a product from JSON file (default: ./product.json)");
+  console.log("  list-shops            List all available shops");
+  console.log("  list-products         List all products in current shop");
+  console.log("  debug-blueprints      List all available blueprints");
+  console.log("  debug-blueprint <id>  Debug a specific blueprint and its variants");
+  console.log("  debug-structure <bp> <pp>  Show recommended product structure for blueprint/print provider");
+  console.log("  upload-image <path>   Upload an image to Printify");
+  console.log("  create-with-image [file-path]  Create product with uploaded image (default: ./product.json)");
+  console.log("  generate-template <bp> <pp>  Generate product template for blueprint/print provider");
+  console.log("  generate-popular-templates   Generate templates for popular products");
+  console.log("  generate-all-templates      Generate ALL templates for every blueprint/print provider combination");
+  console.log("  list-templates       List available templates that can be generated");
+  console.log("  list-all-templates   List all generated templates with summary information");
+  console.log("  generate-ai-summary  Generate AI-friendly template summary and categorization");
+  console.log("  show-ai-context      Show AI template context and usage information");
+  console.log("  process-with-images [file-path]  Extract images from JSON, upload to Printify, and create product");
+  console.log("\n🤖 AI Dynamic Discovery Commands:");
+  console.log("  discover-products [category] [max-price] [location]  Discover products dynamically");
+  console.log("  search-products <keywords...>  Search products by keywords");
+  console.log("  generate-dynamic-template <bp> <pp> [customizations]  Generate template on-demand");
+  console.log("  show-categories      Show available product categories");
+  console.log("  help                  Show this help message");
+
+  console.log("\nExamples:");
+  console.log("  yarn start create                    # Create product from ./product.json");
+  console.log("  yarn start create ./my-product.json  # Create product from specific file");
+  console.log("  yarn start list-shops               # List available shops");
+  console.log("  yarn start list-products            # List products in current shop");
+  console.log("  yarn start debug-blueprints         # List all blueprints");
+  console.log("  yarn start debug-blueprint 1        # Debug blueprint ID 1");
+  console.log("  yarn start debug-structure 1 1      # Show structure for blueprint 1, print provider 1");
+  console.log("  yarn start upload-image ./image.png # Upload an image to Printify");
+  console.log("  yarn start create-with-image        # Create product with uploaded image");
+  console.log("  yarn start generate-template 5 50   # Generate template for blueprint 5, print provider 50");
+  console.log("  yarn start generate-popular-templates # Generate templates for popular products");
+  console.log("  yarn start generate-all-templates   # Generate ALL possible templates (for AI use)");
+  console.log("  yarn start list-all-templates       # List all generated templates with summary");
+  console.log("  yarn start generate-ai-summary      # Generate AI-friendly template summary");
+  console.log("  yarn start show-ai-context          # Show AI template context and usage");
+  console.log("  yarn start list-templates           # List available templates");
+  console.log("  yarn start process-with-images      # Process product.json with image uploads");
+  console.log("\n🤖 AI Dynamic Examples:");
+  console.log("  yarn start discover-products t-shirts  # Discover t-shirt products");
+  console.log("  yarn start discover-products hoodies 3000  # Hoodies under $30");
+  console.log('  yarn start discover-products mugs 1500 "United States"  # US mugs under $15');
+  console.log("  yarn start search-products premium cotton  # Search for premium cotton products");
+  console.log("  yarn start generate-dynamic-template 5 50  # Generate template for blueprint 5, provider 50");
+  console.log('  yarn start generate-dynamic-template 5 50 \'{"title":"Custom Product","price":3000}\'  # With customizations');
+  console.log("  yarn start show-categories           # Show all available categories");
+
+  console.log("\nEnvironment Variables:");
+  console.log("  PRINTIFY_API_TOKEN     Your Printify API token (required)");
+  console.log("  PRINTIFY_SHOP_ID       Your Printify shop ID (required)");
+  console.log("  DEFAULT_PRODUCT_JSON_PATH  Default path for product.json (optional, default: ./product.json)");
+
+  console.log("\nProduct JSON Format:");
+  console.log("  {");
+  console.log('    "title": "Product Title",');
+  console.log('    "description": "Product Description",');
+  console.log('    "blueprint_id": 123,');
+  console.log('    "print_provider_id": 456,');
+  console.log('    "variants": [...],');
+  console.log('    "print_areas": [...]');
+  console.log("  }");
+
+  console.log("\nFor more information about the Printify API, visit: https://developers.printify.com/");
 }
 
 // Run the application

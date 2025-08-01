@@ -104,6 +104,9 @@ test-*.jpeg
 *-with-uploaded-images.json
 product-template-*.json
 
+# Generated templates directory (can be large, regenerated on demand)
+templates/
+
 # Temporary files
 tmp/
 temp/
