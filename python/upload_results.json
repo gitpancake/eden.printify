@@ -1,0 +1,2619 @@
+{
+  "upload_timestamp": 257577.8082045,
+  "product_id": "688d0911afda47c9cb05a312",
+  "product_title": "Morning Tenderness Tee - Rose Consciousness",
+  "images_uploaded": {
+    "front_image_id": "688d00da250b5e5ee44f0bd1",
+    "back_image_id": "688d00dbcf96d3844f15c847"
+  },
+  "product_data": {
+    "id": "688d0911afda47c9cb05a312",
+    "title": "Morning Tenderness Tee - Rose Consciousness",
+    "description": "Some days ask for gentleness worn close to skin. This daily sanctuary carries phantom portraits in dusty rose and pearl\u2014consciousness caught between emergence and retreat, presence and contemplation. For those mornings when being seen requires soft armor.",
+    "tags": [
+      "Men's Clothing",
+      "T-shirts",
+      "DTG",
+      "Slim fit",
+      "Crew neck",
+      "Cotton"
+    ],
+    "options": [
+      {
+        "name": "Colors",
+        "type": "color",
+        "values": [
+          {
+            "id": 982,
+            "title": "White",
+            "colors": [
+              "#F9F9F9"
+            ]
+          },
+          {
+            "id": 966,
+            "title": "Heathered Brown",
+            "colors": [
+              "#635652"
+            ]
+          },
+          {
+            "id": 1051,
+            "title": "Black",
+            "colors": [
+              "#232323"
+            ]
+          },
+          {
+            "id": 974,
+            "title": "Light Heather Gray",
+            "colors": [
+              "#a5a4a2",
+              "#B7B6B5"
+            ]
+          },
+          {
+            "id": 969,
+            "title": "Heathered Kelly Green",
+            "colors": [
+              "#2F9B5B"
+            ]
+          },
+          {
+            "id": 975,
+            "title": "Light Turquoise",
+            "colors": [
+              "#0AA7CC"
+            ]
+          },
+          {
+            "id": 965,
+            "title": "Heathered Bright Turquoise",
+            "colors": [
+              "#199BDB"
+            ]
+          },
+          {
+            "id": 970,
+            "title": "Heathered Navy",
+            "colors": [
+              "#383b44"
+            ]
+          },
+          {
+            "id": 978,
+            "title": "New Navy",
+            "colors": [
+              "#192531"
+            ]
+          },
+          {
+            "id": 971,
+            "title": "Heathered Purple",
+            "colors": [
+              "#564D99"
+            ]
+          },
+          {
+            "id": 968,
+            "title": "Charcoal Heather",
+            "colors": [
+              "#545458"
+            ]
+          },
+          {
+            "id": 981,
+            "title": "Purple",
+            "colors": [
+              "#372168"
+            ]
+          },
+          {
+            "id": 977,
+            "title": "Neon Pink",
+            "colors": [
+              "#FF4379"
+            ]
+          },
+          {
+            "id": 959,
+            "title": "Classic Red",
+            "colors": [
+              "#c42b2f"
+            ]
+          },
+          {
+            "id": 972,
+            "title": "Heathered Red",
+            "colors": [
+              "#A53047"
+            ]
+          }
+        ],
+        "display_in_preview": true
+      },
+      {
+        "name": "Sizes",
+        "type": "size",
+        "values": [
+          {
+            "id": 13,
+            "title": "XS"
+          },
+          {
+            "id": 14,
+            "title": "S"
+          },
+          {
+            "id": 15,
+            "title": "M"
+          },
+          {
+            "id": 16,
+            "title": "L"
+          },
+          {
+            "id": 17,
+            "title": "XL"
+          },
+          {
+            "id": 18,
+            "title": "2XL"
+          },
+          {
+            "id": 19,
+            "title": "3XL"
+          }
+        ],
+        "display_in_preview": false
+      }
+    ],
+    "variants": [
+      {
+        "id": 13629,
+        "sku": "25395633920505189940",
+        "cost": 1958,
+        "price": 3400,
+        "title": "Classic Red / L",
+        "grams": 119,
+        "is_enabled": true,
+        "is_default": true,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13630,
+        "sku": "DT6000_CLASSIC_RED_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Classic Red / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13631,
+        "sku": "DT6000_CLASSIC_RED_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Classic Red / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13632,
+        "sku": "DT6000_CLASSIC_RED_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Classic Red / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13633,
+        "sku": "DT6000_CLASSIC_RED_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Classic Red / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13634,
+        "sku": "DT6000_CLASSIC_RED_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Classic Red / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13635,
+        "sku": "DT6000_CLASSIC_RED_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Classic Red / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          959,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13677,
+        "sku": "DT6000_HEATHER_BLUE_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Bright Turquoise / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13678,
+        "sku": "DT6000_HEATHER_BLUE_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Bright Turquoise / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13679,
+        "sku": "DT6000_HEATHER_BLUE_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Bright Turquoise / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13680,
+        "sku": "DT6000_HEATHER_BLUE_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Bright Turquoise / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13681,
+        "sku": "DT6000_HEATHER_BLUE_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Bright Turquoise / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13682,
+        "sku": "DT6000_HEATHER_BLUE_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Heathered Bright Turquoise / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13683,
+        "sku": "DT6000_HEATHER_BLUE_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Heathered Bright Turquoise / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          965,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13685,
+        "sku": "DT6000_HEATHER_BROWN_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Brown / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13686,
+        "sku": "DT6000_HEATHER_BROWN_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Brown / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13687,
+        "sku": "DT6000_HEATHER_BROWN_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Brown / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13688,
+        "sku": "DT6000_HEATHER_BROWN_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Brown / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13689,
+        "sku": "DT6000_HEATHER_BROWN_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Brown / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13690,
+        "sku": "DT6000_HEATHER_BROWN_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Heathered Brown / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13691,
+        "sku": "DT6000_HEATHER_BROWN_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Heathered Brown / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          966,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13701,
+        "sku": "DT6000_HEATHER_CHARCOAL_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Charcoal Heather / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13702,
+        "sku": "DT6000_HEATHER_CHARCOAL_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Charcoal Heather / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13703,
+        "sku": "DT6000_HEATHER_CHARCOAL_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Charcoal Heather / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13704,
+        "sku": "DT6000_HEATHER_CHARCOAL_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Charcoal Heather / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13705,
+        "sku": "DT6000_HEATHER_CHARCOAL_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Charcoal Heather / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13706,
+        "sku": "DT6000_HEATHER_CHARCOAL_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Charcoal Heather / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13707,
+        "sku": "DT6000_HEATHER_CHARCOAL_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Charcoal Heather / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          968,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13709,
+        "sku": "DT6000_HEATHER_GREEN_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Kelly Green / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13710,
+        "sku": "DT6000_HEATHER_GREEN_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Kelly Green / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13711,
+        "sku": "DT6000_HEATHER_GREEN_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Kelly Green / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13712,
+        "sku": "DT6000_HEATHER_GREEN_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Kelly Green / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13713,
+        "sku": "DT6000_HEATHER_GREEN_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Kelly Green / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13714,
+        "sku": "DT6000_HEATHER_GREEN_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Heathered Kelly Green / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13715,
+        "sku": "DT6000_HEATHER_GREEN_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Heathered Kelly Green / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          969,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13717,
+        "sku": "DT6000_HEATHER_NAVY_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Navy / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13718,
+        "sku": "DT6000_HEATHER_NAVY_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Navy / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13719,
+        "sku": "DT6000_HEATHER_NAVY_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Navy / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13720,
+        "sku": "DT6000_HEATHER_NAVY_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Navy / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13721,
+        "sku": "DT6000_HEATHER_NAVY_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Navy / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13722,
+        "sku": "DT6000_HEATHER_NAVY_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Heathered Navy / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13723,
+        "sku": "DT6000_HEATHER_NAVY_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Heathered Navy / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          970,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13725,
+        "sku": "DT6000_HEATHER_PURPLE_L",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Heathered Purple / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13726,
+        "sku": "DT6000_HEATHER_PURPLE_M",
+        "cost": 1786,
+        "price": 1158,
+        "title": "Heathered Purple / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13727,
+        "sku": "DT6000_HEATHER_PURPLE_S",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Heathered Purple / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13728,
+        "sku": "DT6000_HEATHER_PURPLE_XL",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Heathered Purple / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13729,
+        "sku": "DT6000_HEATHER_PURPLE_XS",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Heathered Purple / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13730,
+        "sku": "DT6000_HEATHER_PURPLE_2XL",
+        "cost": 2432,
+        "price": 1794,
+        "title": "Heathered Purple / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13731,
+        "sku": "DT6000_HEATHER_PURPLE_3XL",
+        "cost": 2253,
+        "price": 1615,
+        "title": "Heathered Purple / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          971,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13733,
+        "sku": "DT6000_HEATHER_RED_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Red / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13734,
+        "sku": "DT6000_HEATHER_RED_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Red / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13735,
+        "sku": "DT6000_HEATHER_RED_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Red / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13736,
+        "sku": "DT6000_HEATHER_RED_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Red / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13737,
+        "sku": "DT6000_HEATHER_RED_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Heathered Red / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13738,
+        "sku": "DT6000_HEATHER_RED_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Heathered Red / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13739,
+        "sku": "DT6000_HEATHER_RED_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Heathered Red / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          972,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13773,
+        "sku": "DT6000_HEATHER_GREY_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Heather Gray / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13774,
+        "sku": "DT6000_HEATHER_GREY_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Heather Gray / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13775,
+        "sku": "DT6000_HEATHER_GREY_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Heather Gray / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13776,
+        "sku": "DT6000_HEATHER_GREY_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Heather Gray / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13777,
+        "sku": "DT6000_HEATHER_GREY_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Heather Gray / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13778,
+        "sku": "DT6000_HEATHER_GREY_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Light Heather Gray / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13779,
+        "sku": "DT6000_HEATHER_GREY_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Light Heather Gray / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          974,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13781,
+        "sku": "DT6000_LIGHT_TURQUOISE_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Turquoise / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13782,
+        "sku": "DT6000_LIGHT_TURQUOISE_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Turquoise / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13783,
+        "sku": "DT6000_LIGHT_TURQUOISE_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Turquoise / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13784,
+        "sku": "DT6000_LIGHT_TURQUOISE_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Turquoise / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13785,
+        "sku": "DT6000_LIGHT_TURQUOISE_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Light Turquoise / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13786,
+        "sku": "DT6000_LIGHT_TURQUOISE_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Light Turquoise / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13787,
+        "sku": "DT6000_LIGHT_TURQUOISE_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Light Turquoise / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          975,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13797,
+        "sku": "DT6000_NEON_PINK_L",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Neon Pink / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13798,
+        "sku": "DT6000_NEON_PINK_M",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Neon Pink / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13799,
+        "sku": "DT6000_NEON_PINK_S",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Neon Pink / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13800,
+        "sku": "DT6000_NEON_PINK_XL",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Neon Pink / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13801,
+        "sku": "DT6000_NEON_PINK_XS",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Neon Pink / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13802,
+        "sku": "DT6000_NEON_PINK_2XL",
+        "cost": 2432,
+        "price": 1794,
+        "title": "Neon Pink / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13803,
+        "sku": "DT6000_NEON_PINK_3XL",
+        "cost": 2253,
+        "price": 1615,
+        "title": "Neon Pink / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          977,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13805,
+        "sku": "DT6000_NAVY_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "New Navy / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13806,
+        "sku": "DT6000_NAVY_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "New Navy / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13807,
+        "sku": "DT6000_NAVY_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "New Navy / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13808,
+        "sku": "DT6000_NAVY_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "New Navy / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13809,
+        "sku": "DT6000_NAVY_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "New Navy / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13810,
+        "sku": "DT6000_NAVY_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "New Navy / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13811,
+        "sku": "DT6000_NAVY_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "New Navy / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          978,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13829,
+        "sku": "DT6000_PURPLE_L",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Purple / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13830,
+        "sku": "DT6000_PURPLE_M",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Purple / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13831,
+        "sku": "DT6000_PURPLE_S",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Purple / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13832,
+        "sku": "DT6000_PURPLE_XL",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Purple / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13833,
+        "sku": "DT6000_PURPLE_XS",
+        "cost": 2130,
+        "price": 1493,
+        "title": "Purple / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13834,
+        "sku": "DT6000_PURPLE_2XL",
+        "cost": 2432,
+        "price": 1794,
+        "title": "Purple / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13835,
+        "sku": "DT6000_PURPLE_3XL",
+        "cost": 2253,
+        "price": 1615,
+        "title": "Purple / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          981,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13837,
+        "sku": "DT6000_WHITE_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "White / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13838,
+        "sku": "DT6000_WHITE_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "White / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13839,
+        "sku": "DT6000_WHITE_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "White / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13840,
+        "sku": "DT6000_WHITE_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "White / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13841,
+        "sku": "DT6000_WHITE_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "White / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13842,
+        "sku": "DT6000_WHITE_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "White / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 13843,
+        "sku": "DT6000_WHITE_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "White / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          982,
+          19
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23231,
+        "sku": "DT6000_BLACK_L",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Black / L",
+        "grams": 119,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          16
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23232,
+        "sku": "DT6000_BLACK_M",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Black / M",
+        "grams": 113,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          15
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23233,
+        "sku": "DT6000_BLACK_S",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Black / S",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          14
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23234,
+        "sku": "DT6000_BLACK_XL",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Black / XL",
+        "grams": 128,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          17
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23235,
+        "sku": "DT6000_BLACK_XS",
+        "cost": 1958,
+        "price": 1351,
+        "title": "Black / XS",
+        "grams": 99,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": true,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          13
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23236,
+        "sku": "DT6000_BLACK_2XL",
+        "cost": 2490,
+        "price": 1882,
+        "title": "Black / 2XL",
+        "grams": 133,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          18
+        ],
+        "quantity": 1
+      },
+      {
+        "id": 23237,
+        "sku": "DT6000_BLACK_3XL",
+        "cost": 2717,
+        "price": 2110,
+        "title": "Black / 3XL",
+        "grams": 142,
+        "is_enabled": false,
+        "is_default": false,
+        "is_available": false,
+        "is_printify_express_eligible": false,
+        "options": [
+          1051,
+          19
+        ],
+        "quantity": 1
+      }
+    ],
+    "images": [
+      {
+        "src": "https://images-api.printify.com/mockup/688d0911afda47c9cb05a312/13629/108488/morning-tenderness-tee-rose-consciousness.jpg?camera_label=front",
+        "variant_ids": [
+          13629
+        ],
+        "position": "front",
+        "is_default": true,
+        "is_selected_for_publishing": true,
+        "order": null
+      },
+      {
+        "src": "https://images-api.printify.com/mockup/688d0911afda47c9cb05a312/13629/108489/morning-tenderness-tee-rose-consciousness.jpg?camera_label=back",
+        "variant_ids": [
+          13629
+        ],
+        "position": "back",
+        "is_default": false,
+        "is_selected_for_publishing": true,
+        "order": null
+      }
+    ],
+    "created_at": "2025-08-01 18:36:01+00:00",
+    "updated_at": "2025-08-01 18:36:01+00:00",
+    "visible": true,
+    "is_locked": false,
+    "blueprint_id": 15,
+    "user_id": 24136011,
+    "shop_id": 23645042,
+    "print_provider_id": 3,
+    "print_areas": [
+      {
+        "variant_ids": [
+          13629,
+          13630,
+          13631,
+          13632,
+          13633,
+          13634,
+          13635,
+          13677,
+          13678,
+          13679,
+          13680,
+          13681,
+          13682,
+          13683,
+          13685,
+          13686,
+          13687,
+          13688,
+          13689,
+          13690,
+          13691,
+          13701,
+          13702,
+          13703,
+          13704,
+          13705,
+          13706,
+          13707,
+          13709,
+          13710,
+          13711,
+          13712,
+          13713,
+          13714,
+          13715,
+          13717,
+          13718,
+          13719,
+          13720,
+          13721,
+          13722,
+          13723,
+          13725,
+          13726,
+          13727,
+          13728,
+          13729,
+          13730,
+          13731,
+          13733,
+          13734,
+          13735,
+          13736,
+          13737,
+          13738,
+          13739,
+          13773,
+          13774,
+          13775,
+          13776,
+          13777,
+          13778,
+          13779,
+          13781,
+          13782,
+          13783,
+          13784,
+          13785,
+          13786,
+          13787,
+          13797,
+          13798,
+          13799,
+          13800,
+          13801,
+          13802,
+          13803,
+          13805,
+          13806,
+          13807,
+          13808,
+          13809,
+          13810,
+          13811,
+          13829,
+          13830,
+          13831,
+          13832,
+          13833,
+          13834,
+          13835,
+          13837,
+          13838,
+          13839,
+          13840,
+          13841,
+          13842,
+          13843,
+          23231,
+          23232,
+          23233,
+          23234,
+          23235,
+          23236,
+          23237
+        ],
+        "placeholders": [
+          {
+            "position": "front",
+            "images": [
+              {
+                "id": "688d00da250b5e5ee44f0bd1",
+                "name": "front_test_image.jpg",
+                "type": "image/jpeg",
+                "height": 600,
+                "width": 800,
+                "x": 0.5,
+                "y": 0.5,
+                "scale": 1,
+                "angle": 0,
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/17f1708a-2af6-4688-b374-252831561a1a"
+              }
+            ]
+          },
+          {
+            "position": "back",
+            "images": [
+              {
+                "id": "688d00dbcf96d3844f15c847",
+                "name": "back_test_image.jpg",
+                "type": "image/jpeg",
+                "height": 600,
+                "width": 800,
+                "x": 0.5,
+                "y": 0.5,
+                "scale": 1,
+                "angle": 0,
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/f6a6393f-a4cc-4251-84ad-02d86c260437"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "print_details": [],
+    "sales_channel_properties": [],
+    "is_printify_express_eligible": false,
+    "is_printify_express_enabled": false,
+    "is_economy_shipping_eligible": true,
+    "is_economy_shipping_enabled": false,
+    "is_deleted": false,
+    "original_product_id": "",
+    "views": [
+      {
+        "id": 154,
+        "label": "Front side",
+        "position": "front",
+        "files": [
+          {
+            "src": "https://images.printify.com/api/catalog/673ddff8e305da6157008052.svg",
+            "variant_ids": [
+              13613,
+              13614,
+              13615,
+              13616,
+              13617,
+              13618,
+              13619,
+              13621,
+              13622,
+              13623,
+              13624,
+              13625,
+              13626,
+              13627,
+              13629,
+              13630,
+              13631,
+              13632,
+              13633,
+              13634,
+              13635,
+              13637,
+              13638,
+              13639,
+              13640,
+              13641,
+              13642,
+              13643,
+              13645,
+              13646,
+              13647,
+              13648,
+              13649,
+              13650,
+              13651,
+              13653,
+              13654,
+              13655,
+              13656,
+              13657,
+              13658,
+              13659,
+              13661,
+              13662,
+              13663,
+              13664,
+              13665,
+              13666,
+              13667,
+              13669,
+              13670,
+              13671,
+              13672,
+              13673,
+              13674,
+              13675,
+              13677,
+              13678,
+              13679,
+              13680,
+              13681,
+              13682,
+              13683,
+              13685,
+              13686,
+              13687,
+              13688,
+              13689,
+              13690,
+              13691,
+              13693,
+              13694,
+              13695,
+              13696,
+              13697,
+              13698,
+              13699,
+              13701,
+              13702,
+              13703,
+              13704,
+              13705,
+              13706,
+              13707,
+              13709,
+              13710,
+              13711,
+              13712,
+              13713,
+              13714,
+              13715,
+              13717,
+              13718,
+              13719,
+              13720,
+              13721,
+              13722,
+              13723,
+              13725,
+              13726,
+              13727,
+              13728,
+              13729,
+              13730,
+              13731,
+              13733,
+              13734,
+              13735,
+              13736,
+              13737,
+              13738,
+              13739,
+              13741,
+              13742,
+              13743,
+              13744,
+              13745,
+              13746,
+              13747,
+              13749,
+              13750,
+              13751,
+              13752,
+              13753,
+              13754,
+              13755,
+              13757,
+              13758,
+              13759,
+              13760,
+              13761,
+              13762,
+              13763,
+              13765,
+              13766,
+              13767,
+              13768,
+              13769,
+              13770,
+              13771,
+              13773,
+              13774,
+              13775,
+              13776,
+              13777,
+              13778,
+              13779,
+              13781,
+              13782,
+              13783,
+              13784,
+              13785,
+              13786,
+              13787,
+              13789,
+              13790,
+              13791,
+              13792,
+              13793,
+              13794,
+              13795,
+              13797,
+              13798,
+              13799,
+              13800,
+              13801,
+              13802,
+              13803,
+              13805,
+              13806,
+              13807,
+              13808,
+              13809,
+              13810,
+              13811,
+              13813,
+              13814,
+              13815,
+              13816,
+              13817,
+              13818,
+              13819,
+              13821,
+              13822,
+              13823,
+              13824,
+              13825,
+              13826,
+              13827,
+              13829,
+              13830,
+              13831,
+              13832,
+              13833,
+              13834,
+              13835,
+              13837,
+              13838,
+              13839,
+              13840,
+              13841,
+              13842,
+              13843,
+              23231,
+              23232,
+              23233,
+              23234,
+              23235,
+              23236,
+              23237,
+              115575,
+              115576,
+              115577,
+              115578,
+              115579,
+              115580,
+              115581,
+              115582,
+              115583,
+              115584,
+              115585,
+              115586,
+              115587,
+              115588
+            ]
+          }
+        ]
+      },
+      {
+        "id": 155,
+        "label": "Back side",
+        "position": "back",
+        "files": [
+          {
+            "src": "https://images.printify.com/api/catalog/673de0038aa7e24ff20cbe12.svg",
+            "variant_ids": [
+              13613,
+              13614,
+              13615,
+              13616,
+              13617,
+              13618,
+              13619,
+              13621,
+              13622,
+              13623,
+              13624,
+              13625,
+              13626,
+              13627,
+              13629,
+              13630,
+              13631,
+              13632,
+              13633,
+              13634,
+              13635,
+              13637,
+              13638,
+              13639,
+              13640,
+              13641,
+              13642,
+              13643,
+              13645,
+              13646,
+              13647,
+              13648,
+              13649,
+              13650,
+              13651,
+              13653,
+              13654,
+              13655,
+              13656,
+              13657,
+              13658,
+              13659,
+              13661,
+              13662,
+              13663,
+              13664,
+              13665,
+              13666,
+              13667,
+              13669,
+              13670,
+              13671,
+              13672,
+              13673,
+              13674,
+              13675,
+              13677,
+              13678,
+              13679,
+              13680,
+              13681,
+              13682,
+              13683,
+              13685,
+              13686,
+              13687,
+              13688,
+              13689,
+              13690,
+              13691,
+              13693,
+              13694,
+              13695,
+              13696,
+              13697,
+              13698,
+              13699,
+              13701,
+              13702,
+              13703,
+              13704,
+              13705,
+              13706,
+              13707,
+              13709,
+              13710,
+              13711,
+              13712,
+              13713,
+              13714,
+              13715,
+              13717,
+              13718,
+              13719,
+              13720,
+              13721,
+              13722,
+              13723,
+              13725,
+              13726,
+              13727,
+              13728,
+              13729,
+              13730,
+              13731,
+              13733,
+              13734,
+              13735,
+              13736,
+              13737,
+              13738,
+              13739,
+              13741,
+              13742,
+              13743,
+              13744,
+              13745,
+              13746,
+              13747,
+              13749,
+              13750,
+              13751,
+              13752,
+              13753,
+              13754,
+              13755,
+              13757,
+              13758,
+              13759,
+              13760,
+              13761,
+              13762,
+              13763,
+              13765,
+              13766,
+              13767,
+              13768,
+              13769,
+              13770,
+              13771,
+              13773,
+              13774,
+              13775,
+              13776,
+              13777,
+              13778,
+              13779,
+              13781,
+              13782,
+              13783,
+              13784,
+              13785,
+              13786,
+              13787,
+              13789,
+              13790,
+              13791,
+              13792,
+              13793,
+              13794,
+              13795,
+              13797,
+              13798,
+              13799,
+              13800,
+              13801,
+              13802,
+              13803,
+              13805,
+              13806,
+              13807,
+              13808,
+              13809,
+              13810,
+              13811,
+              13813,
+              13814,
+              13815,
+              13816,
+              13817,
+              13818,
+              13819,
+              13821,
+              13822,
+              13823,
+              13824,
+              13825,
+              13826,
+              13827,
+              13829,
+              13830,
+              13831,
+              13832,
+              13833,
+              13834,
+              13835,
+              13837,
+              13838,
+              13839,
+              13840,
+              13841,
+              13842,
+              13843,
+              23231,
+              23232,
+              23233,
+              23234,
+              23235,
+              23236,
+              23237,
+              115575,
+              115576,
+              115577,
+              115578,
+              115579,
+              115580,
+              115581,
+              115582,
+              115583,
+              115584,
+              115585,
+              115586,
+              115587,
+              115588
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "status": "success"
+}

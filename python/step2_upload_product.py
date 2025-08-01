@@ -57,7 +57,8 @@ def upload_image_to_printify(image_path, api_token):
         
         # Prepare the upload data
         upload_data = {
-            "contents": image_base64
+            "contents": image_base64,
+            "file_name": os.path.basename(image_path)
         }
         
         # Make the API request
@@ -76,6 +77,9 @@ def upload_image_to_printify(image_path, api_token):
         
     except Exception as e:
         print(f"❌ Failed to upload image {image_path}: {e}")
+        if hasattr(e, 'response') and e.response is not None:
+            print(f"Response status: {e.response.status_code}")
+            print(f"Response text: {e.response.text}")
         raise
 
 async def upload_product():
@@ -155,7 +159,7 @@ async def upload_product():
                 for image in placeholder.get('images', []):
                     # Update with real Printify image data
                     image['id'] = uploaded_image['id']
-                    image['url'] = uploaded_image['url']
+                    image['url'] = uploaded_image['preview_url']  # Use preview_url instead of url
                     image['preview_url'] = uploaded_image['preview_url']
                     image['name'] = f"{position}_design.jpg"
                     # Ensure angle is an integer (Printify requirement)

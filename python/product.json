@@ -1,1 +1,55 @@
-{}
+{
+    "title": "Morning Tenderness Tee - Rose Consciousness",
+    "description": "Some days ask for gentleness worn close to skin. This daily sanctuary carries phantom portraits in dusty rose and pearl—consciousness caught between emergence and retreat, presence and contemplation. For those mornings when being seen requires soft armor.",
+    "blueprint_id": 15,
+    "print_provider_id": 3,
+    "variants": [
+        {
+            "id": 13629,
+            "price": 3400,
+            "is_enabled": true,
+            "is_default": true,
+            "grams": 180,
+            "options": []
+        }
+    ],
+    "print_areas": [
+        {
+            "variant_ids": [
+                13629
+            ],
+            "placeholders": [
+                {
+                    "position": "front",
+                    "images": [
+                        {
+                            "id": "morning_tenderness_front",
+                            "name": "Rose Consciousness Emergence",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/355adaf09ba26ad5079ab73cff8c9bb24aca8454827dc7c0730d11a84fcdb64a.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/355adaf09ba26ad5079ab73cff8c9bb24aca8454827dc7c0730d11a84fcdb64a.png",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "scale": 1.0,
+                            "angle": 0
+                        }
+                    ]
+                },
+                {
+                    "position": "back",
+                    "images": [
+                        {
+                            "id": "morning_tenderness_back",
+                            "name": "Contemplative Profile",
+                            "url": "https://d14i3advvh2bvd.cloudfront.net/4f75ec929becab8fcdf8c86f2edce3005737f9d18fb39ccddc113676508b67cb.png",
+                            "preview_url": "https://d14i3advvh2bvd.cloudfront.net/4f75ec929becab8fcdf8c86f2edce3005737f9d18fb39ccddc113676508b67cb.png",
+                            "x": 0.5,
+                            "y": 0.5,
+                            "scale": 1.0,
+                            "angle": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
