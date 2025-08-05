@@ -1,13 +1,13 @@
 {
-  "upload_timestamp": 257577.8082045,
-  "product_id": "688d0911afda47c9cb05a312",
+  "upload_timestamp": 451298.977260333,
+  "product_id": "689036d17b36d1ff5b0d20f0",
   "product_title": "Morning Tenderness Tee - Rose Consciousness",
   "images_uploaded": {
-    "front_image_id": "688d00da250b5e5ee44f0bd1",
-    "back_image_id": "688d00dbcf96d3844f15c847"
+    "front_image_id": "689036cf8abfc8fcbfbbe913",
+    "back_image_id": "689036d07c0522cd88430653"
   },
   "product_data": {
-    "id": "688d0911afda47c9cb05a312",
+    "id": "689036d17b36d1ff5b0d20f0",
     "title": "Morning Tenderness Tee - Rose Consciousness",
     "description": "Some days ask for gentleness worn close to skin. This daily sanctuary carries phantom portraits in dusty rose and pearl\u2014consciousness caught between emergence and retreat, presence and contemplation. For those mornings when being seen requires soft armor.",
     "tags": [
@@ -171,7 +171,7 @@
     "variants": [
       {
         "id": 13629,
-        "sku": "25395633920505189940",
+        "sku": "24081289667267625903",
         "cost": 1958,
         "price": 3400,
         "title": "Classic Red / L",
@@ -1957,7 +1957,7 @@
     ],
     "images": [
       {
-        "src": "https://images-api.printify.com/mockup/688d0911afda47c9cb05a312/13629/108488/morning-tenderness-tee-rose-consciousness.jpg?camera_label=front",
+        "src": "https://images.printify.com/mockup/689036d17b36d1ff5b0d20f0/13629/108488/morning-tenderness-tee-rose-consciousness.jpg?camera_label=front",
         "variant_ids": [
           13629
         ],
@@ -1967,7 +1967,7 @@
         "order": null
       },
       {
-        "src": "https://images-api.printify.com/mockup/688d0911afda47c9cb05a312/13629/108489/morning-tenderness-tee-rose-consciousness.jpg?camera_label=back",
+        "src": "https://images.printify.com/mockup/689036d17b36d1ff5b0d20f0/13629/108489/morning-tenderness-tee-rose-consciousness.jpg?camera_label=back",
         "variant_ids": [
           13629
         ],
@@ -1977,13 +1977,13 @@
         "order": null
       }
     ],
-    "created_at": "2025-08-01 18:36:01+00:00",
-    "updated_at": "2025-08-01 18:36:01+00:00",
+    "created_at": "2025-08-04 04:28:01+00:00",
+    "updated_at": "2025-08-04 04:28:01+00:00",
     "visible": true,
     "is_locked": false,
     "blueprint_id": 15,
-    "user_id": 24136011,
-    "shop_id": 23645042,
+    "user_id": 24037972,
+    "shop_id": 23694293,
     "print_provider_id": 3,
     "print_areas": [
       {
@@ -2099,7 +2099,7 @@
             "position": "front",
             "images": [
               {
-                "id": "688d00da250b5e5ee44f0bd1",
+                "id": "689036cf8abfc8fcbfbbe913",
                 "name": "front_test_image.jpg",
                 "type": "image/jpeg",
                 "height": 600,
@@ -2108,7 +2108,7 @@
                 "y": 0.5,
                 "scale": 1,
                 "angle": 0,
-                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/17f1708a-2af6-4688-b374-252831561a1a"
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24037972/63cfec1a-404d-403f-9fbe-3283df181543"
               }
             ]
           },
@@ -2116,7 +2116,7 @@
             "position": "back",
             "images": [
               {
-                "id": "688d00dbcf96d3844f15c847",
+                "id": "689036d07c0522cd88430653",
                 "name": "back_test_image.jpg",
                 "type": "image/jpeg",
                 "height": 600,
@@ -2125,7 +2125,7 @@
                 "y": 0.5,
                 "scale": 1,
                 "angle": 0,
-                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24136011/f6a6393f-a4cc-4251-84ad-02d86c260437"
+                "src": "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/24037972/19570530-13f9-4045-881a-0300d466b55a"
               }
             ]
           }
