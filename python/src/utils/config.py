@@ -16,7 +16,6 @@ def load_config() -> Dict[str, Any]:
     
     config = {
         'printify_api_token': os.getenv('PRINTIFY_API_TOKEN'),
-        'printify_shop_id': os.getenv('PRINTIFY_SHOP_ID'),
         'default_product_json_path': os.getenv('DEFAULT_PRODUCT_JSON_PATH', './product.json')
     }
     
@@ -31,9 +30,6 @@ def validate_config(config: Dict[str, Any]) -> None:
     
     if not config.get('printify_api_token'):
         missing_vars.append('PRINTIFY_API_TOKEN')
-    
-    if not config.get('printify_shop_id'):
-        missing_vars.append('PRINTIFY_SHOP_ID')
     
     if missing_vars:
         raise ValueError(

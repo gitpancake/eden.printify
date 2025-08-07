@@ -7,7 +7,6 @@ A simple, efficient system for AI to discover and create Printify products.
 ```bash
 yarn install
 echo "PRINTIFY_API_TOKEN=your_token" >> .env
-echo "PRINTIFY_SHOP_ID=your_shop_id" >> .env
 ```
 
 ## Core Commands

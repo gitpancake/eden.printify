@@ -166,7 +166,7 @@ async def download_template():
         print("❌ Error: .env file not found!")
         print("Please create a .env file with your Printify credentials:")
         print("PRINTIFY_API_TOKEN=your_api_token_here")
-        print("PRINTIFY_SHOP_ID=your_shop_id_here")
+        print("# Shop ID will be fetched automatically")
         return None
     
     try:
@@ -176,7 +176,7 @@ async def download_template():
         
         print(f"✅ Configuration loaded successfully")
         print(f"   API Token: {config['printify_api_token'][:10]}...")
-        print(f"   Shop ID: {config['printify_shop_id']}")
+        print(f"   Shop ID: Will be fetched automatically")
         
         # Step 1: Fetch template from Printify API
         print(f"\n1️⃣ Fetching template from Printify API...")

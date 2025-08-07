@@ -17,14 +17,17 @@ sys.path.append(str(os.path.join(os.path.dirname(__file__), "src")))
 
 from utils.config import load_config, validate_config
 from services.printify_api import PrintifyApiClient
-from types.printify import PrintifyBlueprint, PrintifyPrintProvider
+from printify_types.printify import PrintifyBlueprint, PrintifyPrintProvider
 
 
 class TemplateFetcher:
     """Fetches and manages templates from Printify API"""
     
-    def __init__(self, api_token: str, shop_id: str):
-        self.api_client = PrintifyApiClient(api_token, shop_id)
+    def __init__(self, api_token: str, shop_id: Optional[str] = None):
+        if shop_id:
+            self.api_client = PrintifyApiClient(api_token, shop_id)
+        else:
+            self.api_client = PrintifyApiClient.create_with_dynamic_shop_id(api_token)
         self.templates_dir = "templates"
         
         # Ensure templates directory exists
@@ -255,7 +258,7 @@ async def main():
         print("❌ Error: .env file not found!")
         print("Please create a .env file with your Printify credentials:")
         print("PRINTIFY_API_TOKEN=your_api_token_here")
-        print("PRINTIFY_SHOP_ID=your_shop_id_here")
+        print("# Shop ID will be fetched automatically")
         return
     
     try:
@@ -265,10 +268,10 @@ async def main():
         
         print(f"✅ Configuration loaded successfully")
         print(f"   API Token: {config['printify_api_token'][:10]}...")
-        print(f"   Shop ID: {config['printify_shop_id']}")
+        print(f"   Shop ID: Will be fetched automatically")
         
         # Initialize template fetcher
-        fetcher = TemplateFetcher(config['printify_api_token'], config['printify_shop_id'])
+        fetcher = TemplateFetcher(config['printify_api_token'])
         
         if args.list:
             # List available blueprints

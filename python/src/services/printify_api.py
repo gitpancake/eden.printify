@@ -15,15 +15,36 @@ from printify_types.printify import (
 class PrintifyApiClient:
     """Client for interacting with the Printify API"""
     
-    def __init__(self, api_token: str, shop_id: str):
+    def __init__(self, api_token: str, shop_id: Optional[str] = None):
         self.api_token = api_token
-        self.shop_id = shop_id
+        self.shop_id = shop_id or ""
         self.base_url = "https://api.printify.com/v1"
         self.headers = {
             "Authorization": f"Bearer {api_token}",
             "User-Agent": "EdenPrintify/1.0.0",
             "Content-Type": "application/json"
         }
+    
+    @classmethod
+    def create_with_dynamic_shop_id(cls, api_token: str) -> 'PrintifyApiClient':
+        """Create an API client with dynamically fetched shop ID"""
+        temp_client = cls(api_token)
+        shops = temp_client.get_shops()
+        
+        if not shops:
+            raise ValueError("No shops found for this account. Please create a shop in Printify first.")
+        
+        if len(shops) == 1:
+            print(f"✅ Using shop: {shops[0].title} (ID: {shops[0].id})")
+            return cls(api_token, shops[0].id)
+        
+        # If multiple shops, use the first one but warn the user
+        print(f"⚠️  Multiple shops found. Using the first shop: {shops[0].title} (ID: {shops[0].id})")
+        print("Available shops:")
+        for i, shop in enumerate(shops):
+            print(f"  {i + 1}. {shop.title} (ID: {shop.id})")
+        
+        return cls(api_token, shops[0].id)
     
     def _make_request(self, method: str, endpoint: str, data: Optional[Dict] = None) -> Dict[str, Any]:
         """Make a request to the Printify API"""
@@ -72,7 +93,13 @@ class PrintifyApiClient:
         """Get all shops for the authenticated user"""
         try:
             response = self._make_request("GET", "/shops.json")
-            return [PrintifyShop(**shop) for shop in response]
+            # Convert shop ID to string if it's an integer
+            shops = []
+            for shop in response:
+                if isinstance(shop.get('id'), int):
+                    shop['id'] = str(shop['id'])
+                shops.append(PrintifyShop(**shop))
+            return shops
         except Exception as e:
             print(f"Failed to fetch shops: {e}")
             raise

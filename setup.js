@@ -52,13 +52,8 @@ async function setup() {
     return;
   }
 
-  // Get shop ID
-  const shopId = await question("Enter your Printify shop ID: ");
-  if (!shopId.trim()) {
-    console.log("❌ Shop ID is required!");
-    rl.close();
-    return;
-  }
+  // Note: Shop ID will be fetched automatically
+  console.log("ℹ️  Shop ID will be fetched automatically from your Printify account");
 
   // Optional: Default product JSON path
   const defaultPath = await question("Default product.json path (press Enter for ./product.json): ");
@@ -67,7 +62,6 @@ async function setup() {
   // Create .env file
   const envContent = `# Printify API Configuration
 PRINTIFY_API_TOKEN=${apiToken}
-PRINTIFY_SHOP_ID=${shopId}
 
 # Optional: Default path for product.json file
 DEFAULT_PRODUCT_JSON_PATH=${productPath}
@@ -118,7 +112,7 @@ DEBUG=false
       console.log("3. Run 'yarn start help' to see all available commands");
     } else {
       console.log("❌ Connection test failed!");
-      console.log("Please check your API token and shop ID.");
+      console.log("Please check your API token.");
       console.log("");
       console.log("Error output:");
       console.log(output);

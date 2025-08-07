@@ -17,7 +17,7 @@ A comprehensive Python script to fetch and explore templates from the Printify A
 2. **Printify API credentials** in a `.env` file:
    ```
    PRINTIFY_API_TOKEN=your_api_token_here
-   PRINTIFY_SHOP_ID=your_shop_id_here
+   # Shop ID will be fetched automatically
    ```
 3. **Required Python packages** (install with `pip install -r requirements.txt`):
    - requests

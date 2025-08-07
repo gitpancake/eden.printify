@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw, ImageFont
 sys.path.append(str(os.path.join(os.path.dirname(__file__), "src")))
 
 from utils.config import load_config, validate_config
+from services.printify_api import PrintifyApiClient
 
 def create_test_image(text, filename):
     """Create a simple test image"""
@@ -99,7 +100,7 @@ async def upload_product():
         print("❌ Error: .env file not found!")
         print("Please create a .env file with your Printify credentials:")
         print("PRINTIFY_API_TOKEN=your_api_token_here")
-        print("PRINTIFY_SHOP_ID=your_shop_id_here")
+        print("# Shop ID will be fetched automatically")
         return None
     
     try:
@@ -109,7 +110,7 @@ async def upload_product():
         
         print(f"✅ Configuration loaded successfully")
         print(f"   API Token: {config['printify_api_token'][:10]}...")
-        print(f"   Shop ID: {config['printify_shop_id']}")
+        print(f"   Shop ID: Will be fetched automatically")
         
         # Step 1: Create and upload test images
         print(f"\n🖼️  Step 1: Creating and uploading images...")
@@ -189,8 +190,19 @@ async def upload_product():
         # Step 4: Upload product to Printify
         print(f"\n🚀 Step 4: Creating product on Printify...")
         
+        # Get shop ID dynamically
+        print(f"🔄 Fetching shop ID...")
+        temp_client = PrintifyApiClient(config['printify_api_token'])
+        shops = temp_client.get_shops()
+        
+        if not shops:
+            raise Exception("No shops found for this account. Please create a shop in Printify first.")
+        
+        shop_id = shops[0].id
+        print(f"✅ Using shop: {shops[0].title} (ID: {shop_id})")
+        
         # Upload directly to Printify API
-        url = f"https://api.printify.com/v1/shops/{config['printify_shop_id']}/products.json"
+        url = f"https://api.printify.com/v1/shops/{shop_id}/products.json"
         headers = {
             "Authorization": f"Bearer {config['printify_api_token']}",
             "User-Agent": "EdenPrintify/1.0.0",
@@ -240,7 +252,7 @@ async def upload_product():
         print(f"\n📄 Upload results saved to: upload_results.json")
         print(f"🎉 Product uploaded successfully!")
         print(f"\n🔗 You can view your product in your Printify dashboard")
-        print(f"   Product URL: https://printify.com/app/shops/{config['printify_shop_id']}/products/{created_product.get('id')}")
+        print(f"   Product URL: https://printify.com/app/shops/{shop_id}/products/{created_product.get('id')}")
         
         return upload_results
         

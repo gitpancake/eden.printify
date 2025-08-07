@@ -25,7 +25,7 @@ class TemplateGenerator:
             from ..utils.config import load_config
             config = load_config()
             self.api_token = config['printify_api_token']
-            self.api_client = PrintifyApiClient(self.api_token, config['printify_shop_id'])
+            self.api_client = PrintifyApiClient.create_with_dynamic_shop_id(self.api_token)
     
     def generate_all_templates(self) -> Dict[str, Any]:
         """Generate ALL templates for every blueprint/print provider combination"""

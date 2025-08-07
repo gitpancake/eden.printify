@@ -5,8 +5,8 @@ export class PrintifyApiClient {
   private client: AxiosInstance;
   private shopId: string;
 
-  constructor(apiToken: string, shopId: string) {
-    this.shopId = shopId;
+  constructor(apiToken: string, shopId?: string) {
+    this.shopId = shopId || "";
     this.client = axios.create({
       baseURL: "https://api.printify.com/v1",
       headers: {
@@ -44,6 +44,32 @@ export class PrintifyApiClient {
         throw error;
       }
     );
+  }
+
+  /**
+   * Create an API client with dynamically fetched shop ID
+   */
+  static async createWithDynamicShopId(apiToken: string): Promise<PrintifyApiClient> {
+    const tempClient = new PrintifyApiClient(apiToken);
+    const shops = await tempClient.getShops();
+
+    if (shops.length === 0) {
+      throw new Error("No shops found for this account. Please create a shop in Printify first.");
+    }
+
+    if (shops.length === 1) {
+      console.log(`✅ Using shop: ${shops[0].title} (ID: ${shops[0].id})`);
+      return new PrintifyApiClient(apiToken, shops[0].id);
+    }
+
+    // If multiple shops, use the first one but warn the user
+    console.log(`⚠️  Multiple shops found. Using the first shop: ${shops[0].title} (ID: ${shops[0].id})`);
+    console.log("Available shops:");
+    shops.forEach((shop, index) => {
+      console.log(`  ${index + 1}. ${shop.title} (ID: ${shop.id})`);
+    });
+
+    return new PrintifyApiClient(apiToken, shops[0].id);
   }
 
   /**

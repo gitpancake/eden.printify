@@ -1,6 +1,6 @@
 # Printify Product Creation Workflow
 
-A streamlined, two-step workflow for creating products on Printify with automatic image upload and product management.
+A comprehensive toolkit for creating products on Printify with template management, automatic image upload, and product creation workflows.
 
 ## 📋 Table of Contents
 
@@ -10,6 +10,7 @@ A streamlined, two-step workflow for creating products on Printify with automati
 - [Configuration](#configuration)
 - [Usage Guide](#usage-guide)
 - [Template System](#template-system)
+- [Template Discovery](#template-discovery)
 - [Integration Guide](#integration-guide)
 - [Troubleshooting](#troubleshooting)
 - [API Reference](#api-reference)
@@ -25,11 +26,13 @@ This tool provides a simple, automated way to create products on Printify. It ha
 
 ### Key Features
 
-- ✅ **Two-step workflow** - Simple and intuitive
+- ✅ **Template Discovery** - Browse and fetch templates from Printify API
+- ✅ **Two-step workflow** - Simple and intuitive product creation
 - ✅ **Automatic image upload** - No manual image management
-- ✅ **Template system** - Reusable product templates
+- ✅ **Template system** - Reusable product templates with metadata
 - ✅ **Error handling** - Clear error messages and recovery
 - ✅ **Production ready** - Handles real Printify API integration
+- ✅ **Popular templates** - Curated list of common product combinations
 
 ## 🔧 Prerequisites
 
@@ -71,6 +74,10 @@ pip install -r requirements.txt
 ### 3. Verify Installation
 
 ```bash
+# Test the template fetcher
+python fetch_templates.py --help
+
+# Test the main workflow
 python step1_download_template.py --help
 ```
 
@@ -82,7 +89,6 @@ Create a `.env` file in the project directory:
 
 ```env
 PRINTIFY_API_TOKEN=your_api_token_here
-PRINTIFY_SHOP_ID=your_shop_id_here
 ```
 
 ### 2. Get Your Credentials
@@ -96,17 +102,31 @@ PRINTIFY_SHOP_ID=your_shop_id_here
 
 #### Shop ID
 
-1. In your Printify dashboard, note the shop ID from the URL
-2. Or use the API to list your shops
+The shop ID will be automatically fetched from your Printify account. If you have multiple shops, the first one will be used.
 
 ### 3. Test Configuration
 
 ```bash
 # This will verify your credentials work
-python step1_download_template.py
+python fetch_templates.py --list
 ```
 
 ## 🚀 Usage Guide
+
+### Step 0: Discover Templates (Optional)
+
+Before creating products, you can explore available templates:
+
+```bash
+# Show popular template combinations
+python fetch_templates.py --popular
+
+# List all available blueprints
+python fetch_templates.py --list
+
+# Fetch a specific template
+python fetch_templates.py --blueprint 15 --provider 3
+```
 
 ### Step 1: Download a Template
 
@@ -122,6 +142,16 @@ python step1_download_template.py
 4. Creates an empty `product.json` for you to fill in
 5. Shows template details and next steps
 
+**Alternative: Use the template fetcher for more control:**
+
+```bash
+# Fetch a specific template with custom name
+python fetch_templates.py --blueprint 15 --provider 3 --name "My Custom T-Shirt"
+
+# Fetch with custom output filename
+python fetch_templates.py --blueprint 15 --provider 3 --output my_template.json
+```
+
 **Output example:**
 
 ```
@@ -129,7 +159,7 @@ python step1_download_template.py
 ==================================================
 ✅ Configuration loaded successfully
    API Token: eyJ0eXAiOi...
-   Shop ID: 23645042
+   Shop ID: Will be fetched automatically
 
 1️⃣ Fetching template from Printify API...
 📡 Fetching blueprint 15 from Printify...
@@ -284,6 +314,117 @@ Templates are fetched directly from the Printify API and contain real product da
 - Blueprint and provider IDs from Printify
 - Real variant configurations with actual IDs
 - Print area definitions with correct dimensions
+- Comprehensive metadata (brand, model, location, fetch timestamp)
+
+## 🔍 Template Discovery
+
+The `fetch_templates.py` script provides powerful template discovery capabilities:
+
+### Basic Discovery Commands
+
+```bash
+# Browse popular combinations
+python fetch_templates.py --popular
+
+# Discover all available blueprints
+python fetch_templates.py --list
+
+# Fetch specific templates
+python fetch_templates.py --blueprint 15 --provider 3
+
+# Fetch with custom name
+python fetch_templates.py --blueprint 15 --provider 3 --name "My Custom T-Shirt"
+
+# Fetch with custom output filename
+python fetch_templates.py --blueprint 15 --provider 3 --output my_template.json
+```
+
+### Popular Template Combinations
+
+| Product Type        | Blueprint ID | Provider ID | Description             |
+| ------------------- | ------------ | ----------- | ----------------------- |
+| Classic T-Shirt     | 15           | 3           | Standard cotton t-shirt |
+| Premium T-Shirt     | 15           | 1           | High-quality t-shirt    |
+| Long Sleeve T-Shirt | 16           | 3           | Long sleeve variant     |
+| Hoodie              | 17           | 3           | Pullover hoodie         |
+| Sweatshirt          | 18           | 3           | Crew neck sweatshirt    |
+| Tank Top            | 19           | 3           | Sleeveless tank         |
+| V-Neck T-Shirt      | 20           | 3           | V-neck style            |
+| Polo Shirt          | 21           | 3           | Collared polo           |
+| Baseball Jersey     | 22           | 3           | Baseball style jersey   |
+| Raglan T-Shirt      | 23           | 3           | Raglan sleeve style     |
+| Baby Bodysuit       | 24           | 3           | Infant bodysuit         |
+| Kids T-Shirt        | 25           | 3           | Children's t-shirt      |
+| Kids Hoodie         | 26           | 3           | Children's hoodie       |
+| Kids Sweatshirt     | 27           | 3           | Children's sweatshirt   |
+| Kids Tank Top       | 28           | 3           | Children's tank top     |
+
+### Advanced Discovery Features
+
+#### 1. **Blueprint Exploration**
+
+```bash
+# List all available blueprints with IDs and titles
+python fetch_templates.py --list
+```
+
+#### 2. **Provider Discovery**
+
+```bash
+# After finding a blueprint ID, discover its providers
+python fetch_templates.py --blueprint 15 --provider 3
+```
+
+#### 3. **Template Customization**
+
+```bash
+# Fetch with custom naming
+python fetch_templates.py --blueprint 15 --provider 3 --name "Premium Cotton T-Shirt"
+
+# Save with custom filename
+python fetch_templates.py --blueprint 15 --provider 3 --output premium_tshirt_template.json
+```
+
+### Template Discovery Workflow
+
+1. **Start with popular templates:**
+
+   ```bash
+   python fetch_templates.py --popular
+   ```
+
+2. **Choose a combination and fetch it:**
+
+   ```bash
+   python fetch_templates.py --blueprint 15 --provider 3
+   ```
+
+3. **Explore different product types:**
+
+   ```bash
+   python fetch_templates.py --list
+   ```
+
+4. **Customize and save:**
+   ```bash
+   python fetch_templates.py --blueprint 15 --provider 3 --name "My Brand T-Shirt" --output my_brand_template.json
+   ```
+
+### Integration with Main Workflow
+
+The template discovery seamlessly integrates with the main product creation workflow:
+
+```bash
+# 1. Discover and fetch a template
+python fetch_templates.py --blueprint 15 --provider 3 --output my_template.json
+
+# 2. Edit the template file
+# (manually edit my_template.json)
+
+# 3. Use the template for product creation
+cp my_template.json product.json
+python step2_upload_product.py
+```
 
 ### How Templates Work
 
@@ -294,6 +435,19 @@ Templates are fetched directly from the Printify API and contain real product da
 5. **Template Storage**: Saves the fetched template to `templates/template.json`
 
 ### Customizing Template Sources
+
+#### Method 1: Using the Template Fetcher (Recommended)
+
+Use the `fetch_templates.py` script for easy template selection:
+
+```bash
+# Fetch different product types
+python fetch_templates.py --blueprint 15 --provider 3  # T-shirt
+python fetch_templates.py --blueprint 5 --provider 1   # Mug
+python fetch_templates.py --blueprint 1 --provider 2   # Poster
+```
+
+#### Method 2: Modifying step1_download_template.py
 
 To use different product types, modify the blueprint and provider IDs in `step1_download_template.py`:
 
@@ -315,7 +469,7 @@ template_data = fetch_printify_template(
 
 ### Template Structure
 
-The fetched template follows Printify's exact format:
+The fetched template follows Printify's exact format with enhanced metadata:
 
 ```json
 {
@@ -323,10 +477,13 @@ The fetched template follows Printify's exact format:
   "description": "A beautiful custom men's very important tee",
   "blueprint_id": 15, // Product type from Printify
   "print_provider_id": 3, // Print provider from Printify
+  "blueprint_title": "Men's Very Important Tee", // Human-readable blueprint name
+  "print_provider_title": "Marco Fine Arts", // Human-readable provider name
   "variants": [
     // Real variant data from Printify
     {
       "id": 13629, // Actual variant ID from Printify
+      "title": "Classic Red / L", // Variant title
       "price": 2500,
       "is_enabled": true,
       "is_default": true,
@@ -356,11 +513,29 @@ The fetched template follows Printify's exact format:
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "fetched_at": 1234567890.123, // Timestamp when template was fetched
+    "blueprint_brand": "Gildan", // Brand information
+    "blueprint_model": "5000", // Model information
+    "provider_location": "United States" // Provider location
+  }
 }
 ```
 
 ### Finding Blueprint and Provider IDs
+
+#### Method 1: Using the Template Fetcher (Easiest)
+
+```bash
+# List all available blueprints
+python fetch_templates.py --list
+
+# Show popular combinations with IDs
+python fetch_templates.py --popular
+```
+
+#### Method 2: Using Printify's API
 
 Use Printify's API or dashboard to find:
 
@@ -389,7 +564,11 @@ curl -H "Authorization: Bearer YOUR_TOKEN" \
 import subprocess
 import json
 
-# Run step 1
+# Fetch a specific template
+result = subprocess.run(['python', 'fetch_templates.py', '--blueprint', '15', '--provider', '3'],
+                       capture_output=True, text=True)
+
+# Run step 1 (or use the fetched template directly)
 result = subprocess.run(['python', 'step1_download_template.py'],
                        capture_output=True, text=True)
 
@@ -412,10 +591,18 @@ result = subprocess.run(['python', 'step2_upload_product.py'],
 
 ```python
 import asyncio
+from fetch_templates import TemplateFetcher
 from step1_download_template import download_template
 from step2_upload_product import upload_product
 
-# Download template
+# Initialize template fetcher
+fetcher = TemplateFetcher(api_token, shop_id)
+
+# Fetch a specific template
+template = fetcher.fetch_template(15, 3, "My Custom T-Shirt")
+fetcher.save_template(template, "my_template.json")
+
+# Or use the original workflow
 template_result = await download_template()
 
 # Edit product.json manually or programmatically
@@ -495,23 +682,31 @@ For creating multiple products:
 ```python
 import asyncio
 import json
+from fetch_templates import TemplateFetcher
 
 async def create_multiple_products(product_configs):
     results = []
+    fetcher = TemplateFetcher(api_token, shop_id)
 
     for config in product_configs:
-        # Download template
-        await download_template()
+        # Fetch specific template for each product
+        template = fetcher.fetch_template(
+            config['blueprint_id'],
+            config['provider_id'],
+            config['title']
+        )
+
+        # Save template
+        filename = f"template_{config['title'].replace(' ', '_').lower()}.json"
+        fetcher.save_template(template, filename)
 
         # Customize product
-        with open('product.json', 'r') as f:
-            product_data = json.load(f)
+        template['title'] = config['title']
+        template['price'] = config['price']
 
-        product_data['title'] = config['title']
-        product_data['price'] = config['price']
-
+        # Save as product.json for upload
         with open('product.json', 'w') as f:
-            json.dump(product_data, f, indent=2)
+            json.dump(template, f, indent=2)
 
         # Upload product
         result = await upload_product()
@@ -521,9 +716,9 @@ async def create_multiple_products(product_configs):
 
 # Usage
 configs = [
-    {'title': 'Product 1', 'price': 2500},
-    {'title': 'Product 2', 'price': 3000},
-    {'title': 'Product 3', 'price': 3500}
+    {'title': 'Product 1', 'price': 2500, 'blueprint_id': 15, 'provider_id': 3},
+    {'title': 'Product 2', 'price': 3000, 'blueprint_id': 16, 'provider_id': 3},
+    {'title': 'Product 3', 'price': 3500, 'blueprint_id': 17, 'provider_id': 3}
 ]
 
 results = asyncio.run(create_multiple_products(configs))
@@ -580,10 +775,10 @@ Check error logs in:
 
 ### Environment Variables
 
-| Variable             | Description             | Required |
-| -------------------- | ----------------------- | -------- |
-| `PRINTIFY_API_TOKEN` | Your Printify API token | Yes      |
-| `PRINTIFY_SHOP_ID`   | Your Printify shop ID   | Yes      |
+| Variable             | Description             | Required                   |
+| -------------------- | ----------------------- | -------------------------- |
+| `PRINTIFY_API_TOKEN` | Your Printify API token | Yes                        |
+| `PRINTIFY_SHOP_ID`   | Your Printify shop ID   | No (fetched automatically) |
 
 ### File Structure
 
@@ -592,8 +787,27 @@ Check error logs in:
 | `product.json`        | Product configuration   | Yes       |
 | `template_info.json`  | Template selection info | Yes       |
 | `upload_results.json` | Upload results/errors   | Yes       |
+| `templates/*.json`    | Template files          | Yes       |
 
 ### Return Values
+
+#### fetch_templates.py
+
+```python
+{
+    "template_source": "printify_api",
+    "template_data": {
+        "title": "Custom T-Shirt",
+        "blueprint_id": 15,
+        "print_provider_id": 3,
+        "blueprint_title": "T-Shirt",
+        "print_provider_title": "Printful",
+        "variants": [...],
+        "print_areas": [...],
+        "metadata": {...}
+    }
+}
+```
 
 #### step1_download_template.py
 
@@ -622,13 +836,20 @@ Check error logs in:
 
 ## 🎉 Success!
 
-You now have a complete, production-ready Printify product creation workflow!
+You now have a complete, production-ready Printify product creation workflow with template discovery capabilities!
 
 **Next steps:**
 
-1. Create your own templates
-2. Integrate with your application
-3. Set up automated workflows
-4. Scale to multiple products
+1. **Explore templates** - Use `python fetch_templates.py --popular` to see available options
+2. **Create your own templates** - Fetch and customize templates for your products
+3. **Integrate with your application** - Use the provided integration examples
+4. **Set up automated workflows** - Implement batch processing for multiple products
+5. **Scale to multiple products** - Leverage the template system for consistent product creation
+
+**Available Scripts:**
+
+- `fetch_templates.py` - Discover and fetch templates from Printify API
+- `step1_download_template.py` - Download default template for quick start
+- `step2_upload_product.py` - Upload customized products to Printify
 
 **Need help?** Check the troubleshooting section or review the API reference above.

@@ -31,7 +31,8 @@ async function main() {
 
     // Initialize API client and services
     console.log("🔧 Initializing services...");
-    const apiClient = new PrintifyApiClient(config.printifyApiToken, config.printifyShopId);
+    console.log("🔄 Fetching shop ID dynamically...");
+    const apiClient = await PrintifyApiClient.createWithDynamicShopId(config.printifyApiToken);
     const productService = new ProductService(apiClient);
     const debugHelper = new DebugHelper(apiClient);
     const imageUploader = new ImageUploader(config.printifyApiToken);
@@ -645,7 +646,7 @@ function showHelp() {
 
   console.log("\nEnvironment Variables:");
   console.log("  PRINTIFY_API_TOKEN     Your Printify API token (required)");
-  console.log("  PRINTIFY_SHOP_ID       Your Printify shop ID (required)");
+  console.log("  PRINTIFY_SHOP_ID       Your Printify shop ID (optional - will be fetched automatically)");
   console.log("  DEFAULT_PRODUCT_JSON_PATH  Default path for product.json (optional, default: ./product.json)");
 
   console.log("\nProduct JSON Format:");
